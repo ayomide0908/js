@@ -367,4 +367,20 @@ x = numbers[0] + numbers[3];
 
 x = `My favourite fruit is an ${fruits[2]}`;
 
+x = numbers.length;
+
+// change value
+fruits[2] = "pear";
+
+// fruits.length = 2
+
+fruits[3] = "strawberry";
+
+// add extra to the end
+fruits[fruits.length] = "blueberry";
+
+fruits[fruits.length] = "peach";
+
+x = fruits;
+
 console.log(x);
