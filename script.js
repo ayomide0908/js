@@ -1,386 +1,423 @@
-// // // // // // // // // // // This is a single line of code
+// // // // // // // // // // // // This is a single line of code
 
-// // // // // // // // // // console.log(100);
+// // // // // // // // // // // console.log(100);
 
-// // // // // // // // // // console.log("Hello World");
+// // // // // // // // // // // console.log("Hello World");
 
-// // // // // // // // // // console.log(20, "Hello", true);
+// // // // // // // // // // // console.log(20, "Hello", true);
 
-// // // // // // // // // // const x = 100;
+// // // // // // // // // // // const x = 100;
 
-// // // // // // // // // // console.log(x);
+// // // // // // // // // // // console.log(x);
 
-// // // // // // // // // // console.error("Alert");
+// // // // // // // // // // // console.error("Alert");
 
-// // // // // // // // // // console.warn("Warning");
+// // // // // // // // // // // console.warn("Warning");
 
-// // // // // // // // // // console.table({ name: "Brad", email: "brad@gmail.com" });
+// // // // // // // // // // // console.table({ name: "Brad", email: "brad@gmail.com" });
 
-// // // // // // // // // // console.group("simple");
-// // // // // // // // // // console.log(x);
-// // // // // // // // // // console.error("Alert");
-// // // // // // // // // // console.warn("Warning");
-// // // // // // // // // // console.groupEnd();
+// // // // // // // // // // // console.group("simple");
+// // // // // // // // // // // console.log(x);
+// // // // // // // // // // // console.error("Alert");
+// // // // // // // // // // // console.warn("Warning");
+// // // // // // // // // // // console.groupEnd();
 
-// // // // // // // // // // const styles = "padding:10px; background-color:white; color:green";
-// // // // // // // // // // console.log("%cHello World", styles);
+// // // // // // // // // // // const styles = "padding:10px; background-color:white; color:green";
+// // // // // // // // // // // console.log("%cHello World", styles);
 
-// // // // // // // // // // declaration of variables
-// // // // // // // // // // var, let , const
+// // // // // // // // // // // declaration of variables
+// // // // // // // // // // // var, let , const
 
-// // // // // // // // // // let firstName = "John";
-// // // // // // // // // // let lastName = "Doe";
+// // // // // // // // // // // let firstName = "John";
+// // // // // // // // // // // let lastName = "Doe";
 
-// // // // // // // // // // console.log(firstName, lastName);
+// // // // // // // // // // // console.log(firstName, lastName);
 
-// // // // // // // // // // let age = 30;
+// // // // // // // // // // // let age = 30;
 
-// // // // // // // // // // console.log(age);
+// // // // // // // // // // // console.log(age);
 
-// // // // // // // // // // // reASSIGN
-// // // // // // // // // // age = 31;
+// // // // // // // // // // // // reASSIGN
+// // // // // // // // // // // age = 31;
 
-// // // // // // // // // // console.log(age);
+// // // // // // // // // // // console.log(age);
 
-// // // // // // // // // // let score;
+// // // // // // // // // // // let score;
 
-// // // // // // // // // // score = 1;
+// // // // // // // // // // // score = 1;
 
-// // // // // // // // // // console.log(score);
+// // // // // // // // // // // console.log(score);
 
-// // // // // // // // // // if (true) {
-// // // // // // // // // //   score = score + 1;
-// // // // // // // // // // }
+// // // // // // // // // // // if (true) {
+// // // // // // // // // // //   score = score + 1;
+// // // // // // // // // // // }
 
-// // // // // // // // // // console.log(score);
+// // // // // // // // // // // console.log(score);
 
-// // // // // // // // // // const x = 100;
+// // // // // // // // // // // const x = 100;
 
-// // // // // // // // // // const arr = [1, 2, 3, 4];
-// // // // // // // // // // console.log(arr);
+// // // // // // // // // // // const arr = [1, 2, 3, 4];
+// // // // // // // // // // // console.log(arr);
 
-// // // // // // // // // // arr.push(5);
-// // // // // // // // // // console.log(arr);
+// // // // // // // // // // // arr.push(5);
+// // // // // // // // // // // console.log(arr);
 
+// // // // // // // // // // // const person = {
+// // // // // // // // // // //   name: "Brad",
+// // // // // // // // // // // };
+
+// // // // // // // // // // // // reassigning
+// // // // // // // // // // // person.name = "john";
+
+// // // // // // // // // // // person.email = "brad@gmail.com";
+
+// // // // // // // // // // // console.log(person);
+
+// // // // // // // // // // // // declare multiple values
+// // // // // // // // // // // let a, b, c;
+
+// // // // // // // // // // // const d = 10,
+// // // // // // // // // // //   e = 2,
+// // // // // // // // // // //   f = 30;
+
+// // // // // // // // // // // console.log(e);
+// // // // // // // // // // // console.log(f);
+
+// // // // // // // // // // // String
+// // // // // // // // // // const firstName = "sara";
+
+// // // // // // // // // // // // number
+// // // // // // // // // // // const age = 30;
+// // // // // // // // // // // const temp = 98.9;
+
+// // // // // // // // // // // boolean
+// // // // // // // // // // const hashkids = true;
+
+// // // // // // // // // // // null
+// // // // // // // // // // const aptNumber = null;
+
+// // // // // // // // // // // undefined
+// // // // // // // // // // const score = undefined;
+
+// // // // // // // // // // // symobol
+// // // // // // // // // // const id = Symbol("id");
+// // // // // // // // // // const output = id;
+
+// // // // // // // // // // console.log(output, typeof output);
+
+// // // // // // // // // // // values are stored on the stack
+// // // // // // // // // // const name = "john";
+
+// // // // // // // // // // const age = 30;
+
+// // // // // // // // // // //reference value are stored on the heap
 // // // // // // // // // // const person = {
 // // // // // // // // // //   name: "Brad",
+// // // // // // // // // //   age: 40,
 // // // // // // // // // // };
 
-// // // // // // // // // // // reassigning
-// // // // // // // // // // person.name = "john";
+// // // // // // // // // // let newName = name;
+// // // // // // // // // // newName = "Johnathan";
 
-// // // // // // // // // // person.email = "brad@gmail.com";
+// // // // // // // // // // let newPerson = person;
+// // // // // // // // // // newPerson.name = "Bradely";
 
-// // // // // // // // // // console.log(person);
+// // // // // // // // // // console.log(name, newName);
+// // // // // // // // // // console.log(person, newPerson);
 
-// // // // // // // // // // // declare multiple values
-// // // // // // // // // // let a, b, c;
+// // // // // // // // // // change string to number
+// // // // // // // // // // let amount = "100";
 
-// // // // // // // // // // const d = 10,
-// // // // // // // // // //   e = 2,
-// // // // // // // // // //   f = 30;
+// // // // // // // // // // amount = parseInt(amount);
+// // // // // // // // // // amount = +amount;
+// // // // // // // // // // amount = Number(amount);
 
-// // // // // // // // // // console.log(e);
-// // // // // // // // // // console.log(f);
+// // // // // // // // // // console.log(amount, typeof amount);
 
-// // // // // // // // // // String
-// // // // // // // // // const firstName = "sara";
+// // // // // // // // // // change  number to string
+// // // // // // // // // // let amount = "99.5";
+// // // // // // // // // // // amount = amount.toString();
+// // // // // // // // // // amount =  String(amount);
 
-// // // // // // // // // // // number
-// // // // // // // // // // const age = 30;
-// // // // // // // // // // const temp = 98.9;
+// // // // // // // // // // console.log(amount, typeof amount);
 
-// // // // // // // // // // boolean
-// // // // // // // // // const hashkids = true;
+// // // // // // // // // // // convert number to boolean
+// // // // // // // // // //
+// // // // // // // // // // amount = Boolean(amount);
 
-// // // // // // // // // // null
-// // // // // // // // // const aptNumber = null;
-
-// // // // // // // // // // undefined
-// // // // // // // // // const score = undefined;
-
-// // // // // // // // // // symobol
-// // // // // // // // // const id = Symbol("id");
-// // // // // // // // // const output = id;
-
-// // // // // // // // // console.log(output, typeof output);
-
-// // // // // // // // // // values are stored on the stack
-// // // // // // // // // const name = "john";
-
-// // // // // // // // // const age = 30;
-
-// // // // // // // // // //reference value are stored on the heap
-// // // // // // // // // const person = {
-// // // // // // // // //   name: "Brad",
-// // // // // // // // //   age: 40,
-// // // // // // // // // };
-
-// // // // // // // // // let newName = name;
-// // // // // // // // // newName = "Johnathan";
-
-// // // // // // // // // let newPerson = person;
-// // // // // // // // // newPerson.name = "Bradely";
-
-// // // // // // // // // console.log(name, newName);
-// // // // // // // // // console.log(person, newPerson);
-
-// // // // // // // // // change string to number
-// // // // // // // // // let amount = "100";
-
+// // // // // // // // // let amount = "hello";
 // // // // // // // // // amount = parseInt(amount);
-// // // // // // // // // amount = +amount;
-// // // // // // // // // amount = Number(amount);
-
 // // // // // // // // // console.log(amount, typeof amount);
 
-// // // // // // // // // change  number to string
-// // // // // // // // // let amount = "99.5";
-// // // // // // // // // // amount = amount.toString();
-// // // // // // // // // amount =  String(amount);
+// // // // // // // // // let x;
+// // // // // // // // // x = 5 + Number("5");
 
-// // // // // // // // // console.log(amount, typeof amount);
-
-// // // // // // // // // // convert number to boolean
-// // // // // // // // //
-// // // // // // // // // amount = Boolean(amount);
-
-// // // // // // // // let amount = "hello";
-// // // // // // // // amount = parseInt(amount);
-// // // // // // // // console.log(amount, typeof amount);
+// // // // // // // // // console.log(x, typeof x);
 
 // // // // // // // // let x;
-// // // // // // // // x = 5 + Number("5");
 
-// // // // // // // // console.log(x, typeof x);
+// // // // // // // // const name = "john";
+// // // // // // // // const age = 31;
+// // // // // // // // x = "Hello, my name is " + name + " and I am " + age + "years old";
 
-// // // // // // // let x;
+// // // // // // // // // template literals
+// // // // // // // // x = `Hello, my name is ${name} and I am ${age} years old`;
 
-// // // // // // // const name = "john";
-// // // // // // // const age = 31;
-// // // // // // // x = "Hello, my name is " + name + " and I am " + age + "years old";
+// // // // // // // // // String Properties and Methods
+// // // // // // // // const s = new String("Hello World");
 
-// // // // // // // // template literals
-// // // // // // // x = `Hello, my name is ${name} and I am ${age} years old`;
+// // // // // // // // x = typeof s;
 
-// // // // // // // // String Properties and Methods
-// // // // // // // const s = new String("Hello World");
+// // // // // // // // // x = s.length;
 
-// // // // // // // x = typeof s;
+// // // // // // // // // access value by key
+// // // // // // // // x = s[2];
 
-// // // // // // // // x = s.length;
+// // // // // // // // x = s.__proto__;
 
-// // // // // // // // access value by key
-// // // // // // // x = s[2];
+// // // // // // // // x = s.toUpperCase();
+// // // // // // // // x = s.toLowerCase();
 
-// // // // // // // x = s.__proto__;
+// // // // // // // // console.log(s);
 
-// // // // // // // x = s.toUpperCase();
-// // // // // // // x = s.toLowerCase();
+// // // // // // // const myString = "developer";
 
-// // // // // // // console.log(s);
+// // // // // // // let myNewString;
 
-// // // // // // const myString = "developer";
+// // // // // // // // solution 1
+// // // // // // // myNewString = myString.charAt(0).toUpperCase() + myString.substring(1);
 
-// // // // // // let myNewString;
+// // // // // // // // solution 2
 
-// // // // // // // solution 1
-// // // // // // myNewString = myString.charAt(0).toUpperCase() + myString.substring(1);
+// // // // // // // myNewString = myString[0].toUpperCase() + myString.substring(1);
 
-// // // // // // // solution 2
+// // // // // // // // solution 3
+// // // // // // // myNewString = `${myString[0].toUpperCase()}${myString.substring(1)}`;
 
-// // // // // // myNewString = myString[0].toUpperCase() + myString.substring(1);
+// // // // // // // console.log(myNewString);
 
-// // // // // // // solution 3
-// // // // // // myNewString = `${myString[0].toUpperCase()}${myString.substring(1)}`;
+// // // // // // let x;
 
-// // // // // // console.log(myNewString);
+// // // // // // const num = new Number(5);
+
+// // // // // // x = num.toString();
+
+// // // // // // x = num.length;
+
+// // // // // // x = num.toString().length;
+
+// // // // // // x = num.toFixed(2);
+
+// // // // // // x = num.toFixed(2);
+
+// // // // // // x = num.toPrecision(3);
+
+// // // // // // x = num.toExponential(2);
+
+// // // // // // x = num.toLocaleString("en-US");
+
+// // // // // // x = num.valueOf();
+
+// // // // // // x = Number.MAX_VALUE;
+// // // // // // x = Number.MIN_VALUE;
+
+// // // // // // console.log(x);
 
 // // // // // let x;
 
-// // // // // const num = new Number(5);
+// // // // // x = Math.sqrt(9);
 
-// // // // // x = num.toString();
+// // // // // x = Math.abs(-5);
 
-// // // // // x = num.length;
+// // // // // // round decimal, round up, round down
+// // // // // x = Math.round(4.2);
 
-// // // // // x = num.toString().length;
+// // // // // x = Math.ceil(4.9);
 
-// // // // // x = num.toFixed(2);
+// // // // // x = Math.floor(4.9);
 
-// // // // // x = num.toFixed(2);
+// // // // // // raise to power
+// // // // // x = Math.pow(2, 3);
+// // // // // // min & max
+// // // // // x = Math.min(4, 5, 3);
 
-// // // // // x = num.toPrecision(3);
+// // // // // x = Math.max(4, 5, 3);
 
-// // // // // x = num.toExponential(2);
+// // // // // // random numbers
+// // // // // x = Math.random();
 
-// // // // // x = num.toLocaleString("en-US");
+// // // // // x = Math.random() * 10;
 
-// // // // // x = num.valueOf();
-
-// // // // // x = Number.MAX_VALUE;
-// // // // // x = Number.MIN_VALUE;
+// // // // // x = Math.floor(Math.random() * 100 + 1);
 
 // // // // // console.log(x);
 
 // // // // let x;
 
-// // // // x = Math.sqrt(9);
-
-// // // // x = Math.abs(-5);
-
-// // // // // round decimal, round up, round down
-// // // // x = Math.round(4.2);
-
-// // // // x = Math.ceil(4.9);
-
-// // // // x = Math.floor(4.9);
-
-// // // // // raise to power
-// // // // x = Math.pow(2, 3);
-// // // // // min & max
-// // // // x = Math.min(4, 5, 3);
-
-// // // // x = Math.max(4, 5, 3);
-
-// // // // // random numbers
-// // // // x = Math.random();
-
-// // // // x = Math.random() * 10;
-
 // // // // x = Math.floor(Math.random() * 100 + 1);
 
 // // // // console.log(x);
 
-// // // let x;
+// // // // let y;
 
-// // // x = Math.floor(Math.random() * 100 + 1);
+// // // // y = Math.floor(Math.random() * 50 + 1);
 
-// // // console.log(x);
+// // // // console.log(y);
 
-// // // let y;
+// // // // console.log(x, y);
 
-// // // y = Math.floor(Math.random() * 50 + 1);
+// // // // SumOutput = x + y;
 
-// // // console.log(y);
+// // // // console.log(SumOutput);
 
-// // // console.log(x, y);
+// // // // differenceOutput = x - y;
 
-// // // SumOutput = x + y;
+// // // // console.log(differenceOutput);
 
-// // // console.log(SumOutput);
+// // // // prod = x * y;
 
-// // // differenceOutput = x - y;
+// // // // productOutput = `${x} * ${y} = ${prod}`;
 
-// // // console.log(differenceOutput);
+// // // // console.log(productOutput);
 
-// // // prod = x * y;
+// // // // quotient = x / y;
 
-// // // productOutput = `${x} * ${y} = ${prod}`;
+// // // // quotientOutput = `${x} / ${y} = ${quotient}`;
 
-// // // console.log(productOutput);
+// // // // console.log(quotientOutput);
 
-// // // quotient = x / y;
+// // // // rm = x % y;
 
-// // // quotientOutput = `${x} / ${y} = ${quotient}`;
+// // // // rmOutput = `${x} % ${y} = ${rm}`;
 
-// // // console.log(quotientOutput);
+// // // // console.log(rmOutput);
 
-// // // rm = x % y;
+// // // let d;
 
-// // // rmOutput = `${x} % ${y} = ${rm}`;
+// // // d = new Date();
 
-// // // console.log(rmOutput);
+// // // d = d.toString();
 
-// // let d;
+// // // d = new Date(2021, 0, 10, 12, 30, 0);
 
-// // d = new Date();
+// // // d = new Date("2021-07-10T12:30:00");
+// // // d = new Date("07/10/2021 12:30:00");
+// // // d = new Date("2022-07-10");
+// // // d = new Date("07-10-2022");
 
-// // d = d.toString();
+// // // // TIME STAMPS
+// // // d = Date.now();
 
-// // d = new Date(2021, 0, 10, 12, 30, 0);
+// // // console.log(d);
 
-// // d = new Date("2021-07-10T12:30:00");
-// // d = new Date("07/10/2021 12:30:00");
-// // d = new Date("2022-07-10");
-// // d = new Date("07-10-2022");
+// // let x;
 
-// // // TIME STAMPS
-// // d = Date.now();
+// // let d = new Date();
 
-// // console.log(d);
+// // x = d.toString();
+
+// // x = d.getTime();
+// // x = d.valueOf();
+
+// // x = d.getFullYear();
+
+// // x = d.getMonth() + 1;
+
+// // x = d.getDate();
+
+// // x = d.getDay();
+
+// // x = d.getHours();
+
+// // x = d.getMinutes();
+
+// // x = d.getSeconds();
+
+// // x = d.getMilliseconds();
+
+// // x = `${d.getFullYear()}-${d.getMonth() + 1}-${d.getDate()}`;
+
+// // x = Intl.DateTimeFormat("default", { month: "long" }).format(d);
+
+// // x = d.toLocaleStriing("default", { month: "short" });
+
+// // x = d.toLocaleString("default", {
+// //   weekday: "long",
+// // });
+
+// // console.log(x);
 
 // let x;
 
-// let d = new Date();
+// // Array Literal
+// const numbers = [12, 45, 33, 29, 39];
 
-// x = d.toString();
+// const mixed = [12, "Hello", true, null];
 
-// x = d.getTime();
-// x = d.valueOf();
+// // console.log(numbers);
 
-// x = d.getFullYear();
+// // Array Constructor
+// const fruits = new Array("apple", "grape", "orange");
 
-// x = d.getMonth() + 1;
+// console.log(fruits);
 
-// x = d.getDate();
+// x = numbers[0];
 
-// x = d.getDay();
+// x = numbers[0] + numbers[3];
 
-// x = d.getHours();
+// x = `My favourite fruit is an ${fruits[2]}`;
 
-// x = d.getMinutes();
+// x = numbers.length;
 
-// x = d.getSeconds();
+// // change value
+// fruits[2] = "pear";
 
-// x = d.getMilliseconds();
+// // fruits.length = 2
 
-// x = `${d.getFullYear()}-${d.getMonth() + 1}-${d.getDate()}`;
+// fruits[3] = "strawberry";
 
-// x = Intl.DateTimeFormat("default", { month: "long" }).format(d);
+// // add extra to the end
+// fruits[fruits.length] = "blueberry";
 
-// x = d.toLocaleStriing("default", { month: "short" });
+// fruits[fruits.length] = "peach";
 
-// x = d.toLocaleString("default", {
-//   weekday: "long",
-// });
+// x = fruits;
+
+// // console.log(x);
+
+// let x;
+
+// const arr = [34, 55, 95, 20, 15];
+
+// to remove a number from the array
+
+// arr.push(100);
+
+// arr.pop();
+
+// // to add number
+
+// arr.unshift(99);
+
+// arr.shift();
+
+// arr.reverse();
+
+// to check if a value is in an array
+
+// x = arr.includes(200);
+
+// x = arr.indexOf(34);
+
+// // slice and splice
+// x = arr.slice(1, 4);
+
+// // x = arr.splice(1, 4);
+
+// // x = arr.splice(3, 1);
+
+// // x = arr.splice(1, 4);
+
+// x = arr.splice(1, 4).reverse().toString().charAt(0);
 
 // console.log(x);
-
-let x;
-
-// Array Literal
-const numbers = [12, 45, 33, 29, 39];
-
-const mixed = [12, "Hello", true, null];
-
-// console.log(numbers);
-
-// Array Constructor
-const fruits = new Array("apple", "grape", "orange");
-
-console.log(fruits);
-
-x = numbers[0];
-
-x = numbers[0] + numbers[3];
-
-x = `My favourite fruit is an ${fruits[2]}`;
-
-x = numbers.length;
-
-// change value
-fruits[2] = "pear";
-
-// fruits.length = 2
-
-fruits[3] = "strawberry";
-
-// add extra to the end
-fruits[fruits.length] = "blueberry";
-
-fruits[fruits.length] = "peach";
-
-x = fruits;
-
-console.log(x);
