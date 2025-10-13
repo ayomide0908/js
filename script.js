@@ -166,21 +166,123 @@
 
 // function add() {
 //   const x = 1;
-//   const y = 50;
+// //   const y = 50;
+// //   console.log(x + y);
+// // }
+
+// // add();
+
+// const x = 100;
+// const foo = 1;
+// var bar = 2;
+
+// if (true) {
+//   const y = 200;
 //   console.log(x + y);
 // }
 
-// add();
+// // console.log(x + y);
 
-const x = 100;
+// for (var i = 0; i <= 10; i++) {
+//   console.log(i);
+// }
 
-if (true) {
-  const y = 200;
-  console.log(x + y);
-}
+// console.log(i);
 
-// console.log(x + y);
+// // difference between var vs let & const
+// if (true) {
+//   const a = 500;
+//   let b = 600;
+//   var c = 700;
+// }
+// // var is not block scope , you can consolole log from outside
+// console.log(c);
 
-for (let i = 0; i <= 10; i++) {
-  console.log(i);
-}
+// // var is function scoped
+// function run() {
+//   var d = 100;
+//   console.log(d);
+// }
+
+// run();
+
+// Nested scope
+// function first() {
+//   const x = 100;
+
+//   function second() {
+//     const y = 200;
+//     // console.log(x + y);
+//   }
+
+//   second();
+// }
+
+// first();
+
+// // other method
+// if (true) {
+//   const x = 100;
+
+//   if (x === 100) {
+//     const y = 200;
+//     console.log(x + y);
+//   }
+// }
+
+// // function declaration
+// function addDollarSign(value) {
+//   return "$" + value;
+// }
+
+// console.log(addDollarSign(200));
+
+// // Function Expression
+// const addPlusSign = function (value) {
+//   return "+" + value;
+// // };
+
+// // console.log(addPlusSign(300));
+
+// // ARROW Functions
+// // function add(a, b) {
+// //     return a + b;
+// // }
+
+// // regular arrow function syntax
+// const add = (a, b) => {
+//   return a + b;
+// };
+
+// console.log(add(1, 2));
+
+// // or
+
+// // implicit return
+// const subtract = (a, b) => a - b;
+
+// console.log(subtract(11, 5));
+
+// // can leave () with single params.
+// const double = (a) => a * 2;
+
+// console.log(double(10));
+
+// // Returning   an object
+// const createObj = () => ({
+//   name: "Brad",
+// });
+
+// console.log(createObj());
+
+// // high order array func.
+// const numbers = [1, 2, 3, 4, 5];
+
+// numbers.forEach(function (n) {
+//   console.log(n);
+// });
+
+// // or Arrow function in a callback
+// numbers.forEach(function (n) {
+//   console.log(n);
+// });
