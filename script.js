@@ -283,6 +283,60 @@
 // });
 
 // // or Arrow function in a callback
-// numbers.forEach(function (n) {
-//   console.log(n);
+// // numbers.forEach(function (n) {
+// //   console.log(n);
+// // });
+
+// // IIFE
+// (function () {
+//   const user = "john";
+//   console.log(user);
+//   const hello = () => console.log("Hello from the IIFE");
+//   hello();
+// })();
+
+// (function (name) {
+//   console.log("Hello " + name);
+// })("Shawn");
+
+// // named IIFE
+// (function hello() {
+//   console.log("Hello");
+//   //   hello() infinite loop
 // });
+
+// // challenge 1
+// function getCelsius(f) {
+//   const celsius = ((f - 32) * 5) / 9;
+//   return celsius;
+// }
+
+// console.log(getCelsius(50));
+
+const getCelsius = (f) => ((f - 32) * 5) / 9;
+
+console.log(`The temp is ${getCelsius(50)} \xB0c`);
+
+// challenge 2
+function minMax(arr) {
+  const min = Math.min(...arr);
+  const max = Math.max(...arr);
+  //   console.log(min);
+  //   console.log(max);
+
+  return {
+    min,
+    max,
+  };
+}
+
+console.log(minMax([1, 2, 3, 4, 5, 6]));
+
+// challenge 3
+((length, width) => {
+  const area = length * width;
+
+  const output = `The area of a rectangle with a length of ${length} and a width of ${width} is ${area}.`;
+
+  console.log(output);
+})(20, 10);
