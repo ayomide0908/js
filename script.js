@@ -467,3 +467,633 @@ switch (true) {
   default:
     console.log("Good Night");
 }
+switch (true) {
+  case hour < 12:
+    console.log("Good Morning");
+    break;
+  case hour < 18:
+    console.log("Good Afternoon");
+    break;
+  default:
+    console.log("Good Night");
+}
+switch (true) {
+  case hour < 12:
+    console.log("Good Morning");
+    break;
+  case hour < 18:
+    console.log("Good Afternoon");
+    break;
+  default:
+    console.log("Good Night");
+}
+switch (true) {
+  case hour < 12:
+    console.log("Good Morning");
+    break;
+  case hour < 18:
+    console.log("Good Afternoon");
+    break;
+  default:
+    console.log("Good Night");
+}
+switch (true) {
+  case hour < 12:
+    console.log("Good Morning");
+    break;
+  case hour < 18:
+    console.log("Good Afternoon");
+    break;
+  default:
+    console.log("Good Night");
+}
+switch (true) {
+  case hour < 12:
+    console.log("Good Morning");
+    break;
+  case hour < 18:
+    console.log("Good Afternoon");
+    break;
+  default:
+    console.log("Good Night");
+}
+switch (true) {
+  case hour < 12:
+    console.log("Good Morning");
+    break;
+  case hour < 18:
+    console.log("Good Afternoon");
+    break;
+  default:
+    console.log("Good Night");
+}
+switch (true) {
+  case hour < 12:
+    console.log("Good Morning");
+    break;
+  case hour < 18:
+    console.log("Good Afternoon");
+    break;
+  default:
+    console.log("Good Night");
+}
+switch (true) {
+  case hour < 12:
+    console.log("Good Morning");
+    break;
+  case hour < 18:
+    console.log("Good Afternoon");
+    break;
+  default:
+    console.log("Good Night");
+}
+switch (true) {
+  case hour < 12:
+    console.log("Good Morning");
+    break;
+  case hour < 18:
+    console.log("Good Afternoon");
+    break;
+  default:
+    console.log("Good Night");
+}
+switch (true) {
+  case hour < 12:
+    console.log("Good Morning");
+    break;
+  case hour < 18:
+    console.log("Good Afternoon");
+    break;
+  default:
+    console.log("Good Night");
+}
+switch (true) {
+  case hour < 12:
+    console.log("Good Morning");
+    break;
+  case hour < 18:
+    console.log("Good Afternoon");
+    break;
+  default:
+    console.log("Good Night");
+}
+switch (true) {
+  case hour < 12:
+    console.log("Good Morning");
+    break;
+  case hour < 18:
+    console.log("Good Afternoon");
+    break;
+  default:
+    console.log("Good Night");
+}
+switch (true) {
+  case hour < 12:
+    console.log("Good Morning");
+    break;
+  case hour < 18:
+    console.log("Good Afternoon");
+    break;
+  default:
+    console.log("Good Night");
+}
+switch (true) {
+  case hour < 12:
+    console.log("Good Morning");
+    break;
+  case hour < 18:
+    console.log("Good Afternoon");
+    break;
+  default:
+    console.log("Good Night");
+}
+switch (true) {
+  case hour < 12:
+    console.log("Good Morning");
+    break;
+  case hour < 18:
+    console.log("Good Afternoon");
+    break;
+  default:
+    console.log("Good Night");
+}
+switch (true) {
+  case hour < 12:
+    console.log("Good Morning");
+    break;
+  case hour < 18:
+    console.log("Good Afternoon");
+    break;
+  default:
+    console.log("Good Night");
+}
+switch (true) {
+  case hour < 12:
+    console.log("Good Morning");
+    break;
+  case hour < 18:
+    console.log("Good Afternoon");
+    break;
+  default:
+    console.log("Good Night");
+}
+switch (true) {
+  case hour < 12:
+    console.log("Good Morning");
+    break;
+  case hour < 18:
+    console.log("Good Afternoon");
+    break;
+  default:
+    console.log("Good Night");
+}
+switch (true) {
+  case hour < 12:
+    console.log("Good Morning");
+    break;
+  case hour < 18:
+    console.log("Good Afternoon");
+    break;
+  default:
+    console.log("Good Night");
+}
+switch (true) {
+  case hour < 12:
+    console.log("Good Morning");
+    break;
+  case hour < 18:
+    console.log("Good Afternoon");
+    break;
+  default:
+    console.log("Good Night");
+}
+switch (true) {
+  case hour < 12:
+    console.log("Good Morning");
+    break;
+  case hour < 18:
+    console.log("Good Afternoon");
+    break;
+  default:
+    console.log("Good Night");
+}
+switch (true) {
+  case hour < 12:
+    console.log("Good Morning");
+    break;
+  case hour < 18:
+    console.log("Good Afternoon");
+    break;
+  default:
+    console.log("Good Night");
+}
+switch (true) {
+  case hour < 12:
+    console.log("Good Morning");
+    break;
+  case hour < 18:
+    console.log("Good Afternoon");
+    break;
+  default:
+    console.log("Good Night");
+}
+switch (true) {
+  case hour < 12:
+    console.log("Good Morning");
+    break;
+  case hour < 18:
+    console.log("Good Afternoon");
+    break;
+  default:
+    console.log("Good Night");
+}
+switch (true) {
+  case hour < 12:
+    console.log("Good Morning");
+    break;
+  case hour < 18:
+    console.log("Good Afternoon");
+    break;
+  default:
+    console.log("Good Night");
+}
+switch (true) {
+  case hour < 12:
+    console.log("Good Morning");
+    break;
+  case hour < 18:
+    console.log("Good Afternoon");
+    break;
+  default:
+    console.log("Good Night");
+}
+switch (true) {
+  case hour < 12:
+    console.log("Good Morning");
+    break;
+  case hour < 18:
+    console.log("Good Afternoon");
+    break;
+  default:
+    console.log("Good Night");
+}
+switch (true) {
+  case hour < 12:
+    console.log("Good Morning");
+    break;
+  case hour < 18:
+    console.log("Good Afternoon");
+    break;
+  default:
+    console.log("Good Night");
+}
+switch (true) {
+  case hour < 12:
+    console.log("Good Morning");
+    break;
+  case hour < 18:
+    console.log("Good Afternoon");
+    break;
+  default:
+    console.log("Good Night");
+}
+switch (true) {
+  case hour < 12:
+    console.log("Good Morning");
+    break;
+  case hour < 18:
+    console.log("Good Afternoon");
+    break;
+  default:
+    console.log("Good Night");
+}
+switch (true) {
+  case hour < 12:
+    console.log("Good Morning");
+    break;
+  case hour < 18:
+    console.log("Good Afternoon");
+    break;
+  default:
+    console.log("Good Night");
+}
+switch (true) {
+  case hour < 12:
+    console.log("Good Morning");
+    break;
+  case hour < 18:
+    console.log("Good Afternoon");
+    break;
+  default:
+    console.log("Good Night");
+}
+switch (true) {
+  case hour < 12:
+    console.log("Good Morning");
+    break;
+  case hour < 18:
+    console.log("Good Afternoon");
+    break;
+  default:
+    console.log("Good Night");
+}
+switch (true) {
+  case hour < 12:
+    console.log("Good Morning");
+    break;
+  case hour < 18:
+    console.log("Good Afternoon");
+    break;
+  default:
+    console.log("Good Night");
+}
+switch (true) {
+  case hour < 12:
+    console.log("Good Morning");
+    break;
+  case hour < 18:
+    console.log("Good Afternoon");
+    break;
+  default:
+    console.log("Good Night");
+}
+switch (true) {
+  case hour < 12:
+    console.log("Good Morning");
+    break;
+  case hour < 18:
+    console.log("Good Afternoon");
+    break;
+  default:
+    console.log("Good Night");
+}
+switch (true) {
+  case hour < 12:
+    console.log("Good Morning");
+    break;
+  case hour < 18:
+    console.log("Good Afternoon");
+    break;
+  default:
+    console.log("Good Night");
+}
+switch (true) {
+  case hour < 12:
+    console.log("Good Morning");
+    break;
+  case hour < 18:
+    console.log("Good Afternoon");
+    break;
+  default:
+    console.log("Good Night");
+}
+switch (true) {
+  case hour < 12:
+    console.log("Good Morning");
+    break;
+  case hour < 18:
+    console.log("Good Afternoon");
+    break;
+  default:
+    console.log("Good Night");
+}
+switch (true) {
+  case hour < 12:
+    console.log("Good Morning");
+    break;
+  case hour < 18:
+    console.log("Good Afternoon");
+    break;
+  default:
+    console.log("Good Night");
+}
+switch (true) {
+  case hour < 12:
+    console.log("Good Morning");
+    break;
+  case hour < 18:
+    console.log("Good Afternoon");
+    break;
+  default:
+    console.log("Good Night");
+}
+switch (true) {
+  case hour < 12:
+    console.log("Good Morning");
+    break;
+  case hour < 18:
+    console.log("Good Afternoon");
+    break;
+  default:
+    console.log("Good Night");
+}
+switch (true) {
+  case hour < 12:
+    console.log("Good Morning");
+    break;
+  case hour < 18:
+    console.log("Good Afternoon");
+    break;
+  default:
+    console.log("Good Night");
+}
+switch (true) {
+  case hour < 12:
+    console.log("Good Morning");
+    break;
+  case hour < 18:
+    console.log("Good Afternoon");
+    break;
+  default:
+    console.log("Good Night");
+}
+switch (true) {
+  case hour < 12:
+    console.log("Good Morning");
+    break;
+  case hour < 18:
+    console.log("Good Afternoon");
+    break;
+  default:
+    console.log("Good Night");
+}
+switch (true) {
+  case hour < 12:
+    console.log("Good Morning");
+    break;
+  case hour < 18:
+    console.log("Good Afternoon");
+    break;
+  default:
+    console.log("Good Night");
+}
+switch (true) {
+  case hour < 12:
+    console.log("Good Morning");
+    break;
+  case hour < 18:
+    console.log("Good Afternoon");
+    break;
+  default:
+    console.log("Good Night");
+}
+switch (true) {
+  case hour < 12:
+    console.log("Good Morning");
+    break;
+  case hour < 18:
+    console.log("Good Afternoon");
+    break;
+  default:
+    console.log("Good Night");
+}
+switch (true) {
+  case hour < 12:
+    console.log("Good Morning");
+    break;
+  case hour < 18:
+    console.log("Good Afternoon");
+    break;
+  default:
+    console.log("Good Night");
+}
+switch (true) {
+  case hour < 12:
+    console.log("Good Morning");
+    break;
+  case hour < 18:
+    console.log("Good Afternoon");
+    break;
+  default:
+    console.log("Good Night");
+}
+switch (true) {
+  case hour < 12:
+    console.log("Good Morning");
+    break;
+  case hour < 18:
+    console.log("Good Afternoon");
+    break;
+  default:
+    console.log("Good Night");
+}
+switch (true) {
+  case hour < 12:
+    console.log("Good Morning");
+    break;
+  case hour < 18:
+    console.log("Good Afternoon");
+    break;
+  default:
+    console.log("Good Night");
+}
+switch (true) {
+  case hour < 12:
+    console.log("Good Morning");
+    break;
+  case hour < 18:
+    console.log("Good Afternoon");
+    break;
+  default:
+    console.log("Good Night");
+}
+switch (true) {
+  case hour < 12:
+    console.log("Good Morning");
+    break;
+  case hour < 18:
+    console.log("Good Afternoon");
+    break;
+  default:
+    console.log("Good Night");
+}
+switch (true) {
+  case hour < 12:
+    console.log("Good Morning");
+    break;
+  case hour < 18:
+    console.log("Good Afternoon");
+    break;
+  default:
+    console.log("Good Night");
+}
+switch (true) {
+  case hour < 12:
+    console.log("Good Morning");
+    break;
+  case hour < 18:
+    console.log("Good Afternoon");
+    break;
+  default:
+    console.log("Good Night");
+}
+switch (true) {
+  case hour < 12:
+    console.log("Good Morning");
+    break;
+  case hour < 18:
+    console.log("Good Afternoon");
+    break;
+  default:
+    console.log("Good Night");
+}
+switch (true) {
+  case hour < 12:
+    console.log("Good Morning");
+    break;
+  case hour < 18:
+    console.log("Good Afternoon");
+    break;
+  default:
+    console.log("Good Night");
+}
+switch (true) {
+  case hour < 12:
+    console.log("Good Morning");
+    break;
+  case hour < 18:
+    console.log("Good Afternoon");
+    break;
+  default:
+    console.log("Good Night");
+}
+switch (true) {
+  case hour < 12:
+    console.log("Good Morning");
+    break;
+  case hour < 18:
+    console.log("Good Afternoon");
+    break;
+  default:
+    console.log("Good Night");
+}
+switch (true) {
+  case hour < 12:
+    console.log("Good Morning");
+    break;
+  case hour < 18:
+    console.log("Good Afternoon");
+    break;
+  default:
+    console.log("Good Night");
+}
+switch (true) {
+  case hour < 12:
+    console.log("Good Morning");
+    break;
+  case hour < 18:
+    console.log("Good Afternoon");
+    break;
+  default:
+    console.log("Good Night");
+}
+switch (true) {
+  case hour < 12:
+    console.log("Good Morning");
+    break;
+  case hour < 18:
+    console.log("Good Afternoon");
+    break;
+  default:
+    console.log("Good Night");
+}
