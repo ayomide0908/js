@@ -1,1099 +1,1291 @@
-// // // // // // // const post = {
-// // // // // // //   id: 1,
-// // // // // // //   title: "Post One",
-// // // // // // //   body: "This is the body",
-// // // // // // // };
+// // // // // // // // // // const post = {
+// // // // // // // // // //   id: 1,
+// // // // // // // // // //   title: "Post One",
+// // // // // // // // // //   body: "This is the body",
+// // // // // // // // // // };
 
-// // // // // // // // convert to json string
-// // // // // // // const str = JSON.stringify(post);
+// // // // // // // // // // // convert to json string
+// // // // // // // // // // const str = JSON.stringify(post);
 
-// // // // // // // // Parse JSON
-// // // // // // // const obj = JSON.parse(str);
+// // // // // // // // // // // Parse JSON
+// // // // // // // // // // const obj = JSON.parse(str);
 
-// // // // // // // // const posts = [
-// // // // // // // //   {
-// // // // // // // //     id: "1",
-// // // // // // // //     title: "Post One",
-// // // // // // // //     body: "This is the body",
-// // // // // // // //   },
-// // // // // // // //   {
-// // // // // // // //     id: "2 ",
-// // // // // // // //     title: "Take out Trash",
-// // // // // // // //   },
-// // // // // // // // ];
+// // // // // // // // // // // const posts = [
+// // // // // // // // // // //   {
+// // // // // // // // // // //     id: "1",
+// // // // // // // // // // //     title: "Post One",
+// // // // // // // // // // //     body: "This is the body",
+// // // // // // // // // // //   },
+// // // // // // // // // // //   {
+// // // // // // // // // // //     id: "2 ",
+// // // // // // // // // // //     title: "Take out Trash",
+// // // // // // // // // // //   },
+// // // // // // // // // // // ];
 
-// // // // // // // // const str2 = JSON.stringify(posts);
+// // // // // // // // // // // const str2 = JSON.stringify(posts);
 
-// // // // // // // // // console.log(str2);
+// // // // // // // // // // // // console.log(str2);
 
-// // // // // // // // // Object Challenge
+// // // // // // // // // // // // Object Challenge
 
-// // // // // // // // // step 1
-// // // // // // // // const library = [
-// // // // // // // //   {
-// // // // // // // //     title: "THe Road Ahead",
-// // // // // // // //     author: "Bill gates",
-// // // // // // // //     status: {
-// // // // // // // //       own: true,
-// // // // // // // //       reading: false,
-// // // // // // // //       read: false,
-// // // // // // // //     },
-// // // // // // // //   },
-// // // // // // // //   {
-// // // // // // // //     title: "Steve jobs",
-// // // // // // // //     author: "walter Isaacson",
-// // // // // // // //     status: {
-// // // // // // // //       own: true,
-// // // // // // // //       reading: false,
-// // // // // // // //       read: false,
-// // // // // // // //     },
-// // // // // // // //   },
-// // // // // // // //   {
-// // // // // // // //     title: "Mockingjay",
-// // // // // // // //     author: "Suzane collins",
-// // // // // // // //     status: {
-// // // // // // // //       own: true,
-// // // // // // // //       reading: false,
-// // // // // // // //       read: false,
-// // // // // // // //     },
-// // // // // // // //   },
-// // // // // // // // ];
+// // // // // // // // // // // // step 1
+// // // // // // // // // // // const library = [
+// // // // // // // // // // //   {
+// // // // // // // // // // //     title: "THe Road Ahead",
+// // // // // // // // // // //     author: "Bill gates",
+// // // // // // // // // // //     status: {
+// // // // // // // // // // //       own: true,
+// // // // // // // // // // //       reading: false,
+// // // // // // // // // // //       read: false,
+// // // // // // // // // // //     },
+// // // // // // // // // // //   },
+// // // // // // // // // // //   {
+// // // // // // // // // // //     title: "Steve jobs",
+// // // // // // // // // // //     author: "walter Isaacson",
+// // // // // // // // // // //     status: {
+// // // // // // // // // // //       own: true,
+// // // // // // // // // // //       reading: false,
+// // // // // // // // // // //       read: false,
+// // // // // // // // // // //     },
+// // // // // // // // // // //   },
+// // // // // // // // // // //   {
+// // // // // // // // // // //     title: "Mockingjay",
+// // // // // // // // // // //     author: "Suzane collins",
+// // // // // // // // // // //     status: {
+// // // // // // // // // // //       own: true,
+// // // // // // // // // // //       reading: false,
+// // // // // // // // // // //       read: false,
+// // // // // // // // // // //     },
+// // // // // // // // // // //   },
+// // // // // // // // // // // ];
 
-// // // // // // // // // step 2
-// // // // // // // // library[0].status.read = true;
-// // // // // // // // library[1].status.read = true;
-// // // // // // // // library[2].status.read = true;
+// // // // // // // // // // // // step 2
+// // // // // // // // // // // library[0].status.read = true;
+// // // // // // // // // // // library[1].status.read = true;
+// // // // // // // // // // // library[2].status.read = true;
 
-// // // // // // // // console.log(library);
+// // // // // // // // // // // console.log(library);
 
-// // // // // // // // // // step 3
-// // // // // // // // const { title: firstBook } = library[0];
+// // // // // // // // // // // // // step 3
+// // // // // // // // // // // const { title: firstBook } = library[0];
 
-// // // // // // // // console.log(firstBook);
+// // // // // // // // // // // console.log(firstBook);
 
-// // // // // // // // // // step 4
-// // // // // // // // const libraryJSON = JSON.stringify(library);
+// // // // // // // // // // // // // step 4
+// // // // // // // // // // // const libraryJSON = JSON.stringify(library);
 
-// // // // // // // // console.log(libraryJSON);
+// // // // // // // // // // // console.log(libraryJSON);
 
-// // // // // // // function sayHello() {
-// // // // // // //   console.log("hello world");
+// // // // // // // // // // function sayHello() {
+// // // // // // // // // //   console.log("hello world");
+// // // // // // // // // // }
+
+// // // // // // // // // // sayHello();
+
+// // // // // // // // // // function add(num1, num2) {
+// // // // // // // // // //   console.log(num1 + num2);
+// // // // // // // // // // }
+
+// // // // // // // // // // add(5, 10);
+
+// // // // // // // // // // function subtract(num1, num2) {
+// // // // // // // // // //   return num1 - num2;
+
+// // // // // // // // // //   console.log("After the return");
+// // // // // // // // // // }
+
+// // // // // // // // // // const result = subtract(10, 2);
+
+// // // // // // // // // // console.log(result, subtract(20, 5));
+
+// // // // // // // // // function registerUser(user = "tolu") {
+// // // // // // // // //   return user + " is registered";
+// // // // // // // // // }
+// // // // // // // // // console.log(registerUser());
+
+// // // // // // // // // // Rest Params
+// // // // // // // // // function sum(...numbers) {
+// // // // // // // // //   let total = 0;
+
+// // // // // // // // //   for (const num of numbers) {
+// // // // // // // // //     total += num;
+// // // // // // // // //   }
+
+// // // // // // // // //   return total;
+// // // // // // // // // }
+
+// // // // // // // // // console.log(sum(1, 2, 3, 4, 5, 6, 100, 10));
+
+// // // // // // // // // // objects as params
+// // // // // // // // // function loginUser(user) {
+// // // // // // // // //   return `The user ${user.name} with the id of ${user.id} is logged in`;
+// // // // // // // // // }
+
+// // // // // // // // // const user = {
+// // // // // // // // //   id: 1,
+// // // // // // // // //   name: "steve",
+// // // // // // // // // };
+
+// // // // // // // // // console.log(loginUser(user));
+// // // // // // // // // console.log(
+// // // // // // // // //   loginUser({
+// // // // // // // // //     id: 2,
+// // // // // // // // //     name: "saraki",
+// // // // // // // // //   })
+// // // // // // // // // );
+
+// // // // // // // // // // Arrays as params
+// // // // // // // // // function getRandom(...arr) {
+// // // // // // // // //   const randomIndex = Math.floor(Math.random() * arr.length);
+
+// // // // // // // // //   const item = arr[randomIndex];
+
+// // // // // // // // //   console.log(item);
+// // // // // // // // // }
+
+// // // // // // // // // getRandom(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
+
+// // // // // // // // // global and function scope
+// // // // // // // // // alert("are you sure you want to open this page");
+// // // // // // // // // console.log(window.innerWidth);
+
+// // // // // // // // // const x = 100;
+
+// // // // // // // // // console.log(x, "in global");
+
+// // // // // // // // // function run() {
+// // // // // // // // //   console.log(window.innerHeight);
+// // // // // // // // //   console.log(x, "in function");
+// // // // // // // // // }
+
+// // // // // // // // // run();
+
+// // // // // // // // // if (true) {
+// // // // // // // // //   console.log(x, "in block");
+// // // // // // // // // }
+
+// // // // // // // // // function add() {
+// // // // // // // // //   const x = 1;
+// // // // // // // // // //   const y = 50;
+// // // // // // // // // //   console.log(x + y);
+// // // // // // // // // // }
+
+// // // // // // // // // // add();
+
+// // // // // // // // // const x = 100;
+// // // // // // // // // const foo = 1;
+// // // // // // // // // var bar = 2;
+
+// // // // // // // // // if (true) {
+// // // // // // // // //   const y = 200;
+// // // // // // // // //   console.log(x + y);
+// // // // // // // // // }
+
+// // // // // // // // // // console.log(x + y);
+
+// // // // // // // // // for (var i = 0; i <= 10; i++) {
+// // // // // // // // //   console.log(i);
+// // // // // // // // // }
+
+// // // // // // // // // console.log(i);
+
+// // // // // // // // // // difference between var vs let & const
+// // // // // // // // // if (true) {
+// // // // // // // // //   const a = 500;
+// // // // // // // // //   let b = 600;
+// // // // // // // // //   var c = 700;
+// // // // // // // // // }
+// // // // // // // // // // var is not block scope , you can consolole log from outside
+// // // // // // // // // console.log(c);
+
+// // // // // // // // // // var is function scoped
+// // // // // // // // // function run() {
+// // // // // // // // //   var d = 100;
+// // // // // // // // //   console.log(d);
+// // // // // // // // // }
+
+// // // // // // // // // run();
+
+// // // // // // // // // Nested scope
+// // // // // // // // // function first() {
+// // // // // // // // //   const x = 100;
+
+// // // // // // // // //   function second() {
+// // // // // // // // //     const y = 200;
+// // // // // // // // //     // console.log(x + y);
+// // // // // // // // //   }
+
+// // // // // // // // //   second();
+// // // // // // // // // }
+
+// // // // // // // // // first();
+
+// // // // // // // // // // other method
+// // // // // // // // // if (true) {
+// // // // // // // // //   const x = 100;
+
+// // // // // // // // //   if (x === 100) {
+// // // // // // // // //     const y = 200;
+// // // // // // // // //     console.log(x + y);
+// // // // // // // // //   }
+// // // // // // // // // }
+
+// // // // // // // // // // function declaration
+// // // // // // // // // function addDollarSign(value) {
+// // // // // // // // //   return "$" + value;
+// // // // // // // // // }
+
+// // // // // // // // // console.log(addDollarSign(200));
+
+// // // // // // // // // // Function Expression
+// // // // // // // // // const addPlusSign = function (value) {
+// // // // // // // // //   return "+" + value;
+// // // // // // // // // // };
+
+// // // // // // // // // // console.log(addPlusSign(300));
+
+// // // // // // // // // // ARROW Functions
+// // // // // // // // // // function add(a, b) {
+// // // // // // // // // //     return a + b;
+// // // // // // // // // // }
+
+// // // // // // // // // // regular arrow function syntax
+// // // // // // // // // const add = (a, b) => {
+// // // // // // // // //   return a + b;
+// // // // // // // // // };
+
+// // // // // // // // // console.log(add(1, 2));
+
+// // // // // // // // // // or
+
+// // // // // // // // // // implicit return
+// // // // // // // // // const subtract = (a, b) => a - b;
+
+// // // // // // // // // console.log(subtract(11, 5));
+
+// // // // // // // // // // can leave () with single params.
+// // // // // // // // // const double = (a) => a * 2;
+
+// // // // // // // // // console.log(double(10));
+
+// // // // // // // // // // Returning   an object
+// // // // // // // // // const createObj = () => ({
+// // // // // // // // //   name: "Brad",
+// // // // // // // // // });
+
+// // // // // // // // // console.log(createObj());
+
+// // // // // // // // // // high order array func.
+// // // // // // // // // const numbers = [1, 2, 3, 4, 5];
+
+// // // // // // // // // numbers.forEach(function (n) {
+// // // // // // // // //   console.log(n);
+// // // // // // // // // });
+
+// // // // // // // // // // or Arrow function in a callback
+// // // // // // // // // // numbers.forEach(function (n) {
+// // // // // // // // // //   console.log(n);
+// // // // // // // // // // });
+
+// // // // // // // // // // IIFE
+// // // // // // // // // (function () {
+// // // // // // // // //   const user = "john";
+// // // // // // // // //   console.log(user);
+// // // // // // // // //   const hello = () => console.log("Hello from the IIFE");
+// // // // // // // // //   hello();
+// // // // // // // // // })();
+
+// // // // // // // // // (function (name) {
+// // // // // // // // //   console.log("Hello " + name);
+// // // // // // // // // })("Shawn");
+
+// // // // // // // // // // named IIFE
+// // // // // // // // // (function hello() {
+// // // // // // // // //   console.log("Hello");
+// // // // // // // // //   //   hello() infinite loop
+// // // // // // // // // });
+
+// // // // // // // // // // challenge 1
+// // // // // // // // // function getCelsius(f) {
+// // // // // // // // //   const celsius = ((f - 32) * 5) / 9;
+// // // // // // // // //   return celsius;
+// // // // // // // // // }
+
+// // // // // // // // // console.log(getCelsius(50));
+
+// // // // // // // // const getCelsius = (f) => ((f - 32) * 5) / 9;
+
+// // // // // // // // console.log(`The temp is ${getCelsius(50)} \xB0c`);
+
+// // // // // // // // // challenge 2
+// // // // // // // // function minMax(arr) {
+// // // // // // // //   const min = Math.min(...arr);
+// // // // // // // //   const max = Math.max(...arr);
+// // // // // // // //   //   console.log(min);
+// // // // // // // //   //   console.log(max);
+
+// // // // // // // //   return {
+// // // // // // // //     min,
+// // // // // // // //     max,
+// // // // // // // //   };
+// // // // // // // // }
+
+// // // // // // // // console.log(minMax([1, 2, 3, 4, 5, 6]));
+
+// // // // // // // // // challenge 3
+// // // // // // // // ((length, width) => {
+// // // // // // // //   const area = length * width;
+
+// // // // // // // //   const output = `The area of a rectangle with a length of ${length} and a width of ${width} is ${area}.`;
+
+// // // // // // // //   console.log(output);
+// // // // // // // // })(20, 10);
+
+// // // // // // // // const x = 100;
+// // // // // // // // const y = 50;
+
+// // // // // // // // function getSum(n1, n2) {
+// // // // // // // //   const sum = n1 + n2;
+// // // // // // // //   return sum;
+// // // // // // // // }
+
+// // // // // // // // const sum1 = getSum(x, y);
+// // // // // // // // const sum2 = getSum(10, 5);
+
+// // // // // // // // console.log(sum1, sum2);
+
+// // // // // // // // call stack
+
+// // // // // // // // first Example
+// // // // // // // function first() {
+// // // // // // //   console.log("first...");
 // // // // // // // }
 
-// // // // // // // sayHello();
-
-// // // // // // // function add(num1, num2) {
-// // // // // // //   console.log(num1 + num2);
+// // // // // // // function second() {
+// // // // // // //   console.log("second...");
 // // // // // // // }
 
-// // // // // // // add(5, 10);
-
-// // // // // // // function subtract(num1, num2) {
-// // // // // // //   return num1 - num2;
-
-// // // // // // //   console.log("After the return");
+// // // // // // // function third() {
+// // // // // // //   console.log("third...");
 // // // // // // // }
 
-// // // // // // // const result = subtract(10, 2);
+// // // // // // // first();
+// // // // // // // second();
+// // // // // // // third();
 
-// // // // // // // console.log(result, subtract(20, 5));
-
-// // // // // // function registerUser(user = "tolu") {
-// // // // // //   return user + " is registered";
-// // // // // // }
-// // // // // // console.log(registerUser());
-
-// // // // // // // Rest Params
-// // // // // // function sum(...numbers) {
-// // // // // //   let total = 0;
-
-// // // // // //   for (const num of numbers) {
-// // // // // //     total += num;
-// // // // // //   }
-
-// // // // // //   return total;
-// // // // // // }
-
-// // // // // // console.log(sum(1, 2, 3, 4, 5, 6, 100, 10));
-
-// // // // // // // objects as params
-// // // // // // function loginUser(user) {
-// // // // // //   return `The user ${user.name} with the id of ${user.id} is logged in`;
-// // // // // // }
-
-// // // // // // const user = {
-// // // // // //   id: 1,
-// // // // // //   name: "steve",
-// // // // // // };
-
-// // // // // // console.log(loginUser(user));
-// // // // // // console.log(
-// // // // // //   loginUser({
-// // // // // //     id: 2,
-// // // // // //     name: "saraki",
-// // // // // //   })
-// // // // // // );
-
-// // // // // // // Arrays as params
-// // // // // // function getRandom(...arr) {
-// // // // // //   const randomIndex = Math.floor(Math.random() * arr.length);
-
-// // // // // //   const item = arr[randomIndex];
-
-// // // // // //   console.log(item);
-// // // // // // }
-
-// // // // // // getRandom(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
-
-// // // // // // global and function scope
-// // // // // // alert("are you sure you want to open this page");
-// // // // // // console.log(window.innerWidth);
-
-// // // // // // const x = 100;
-
-// // // // // // console.log(x, "in global");
-
-// // // // // // function run() {
-// // // // // //   console.log(window.innerHeight);
-// // // // // //   console.log(x, "in function");
-// // // // // // }
-
-// // // // // // run();
+// // // // // // // if Statements
 
 // // // // // // if (true) {
-// // // // // //   console.log(x, "in block");
+// // // // // //   console.log("This is true");
 // // // // // // }
 
-// // // // // // function add() {
-// // // // // //   const x = 1;
-// // // // // // //   const y = 50;
-// // // // // // //   console.log(x + y);
-// // // // // // // }
-
-// // // // // // // add();
-
-// // // // // // const x = 100;
-// // // // // // const foo = 1;
-// // // // // // var bar = 2;
-
-// // // // // // if (true) {
-// // // // // //   const y = 200;
-// // // // // //   console.log(x + y);
+// // // // // // if (false) {
+// // // // // //   console.log("This is NOT true");
 // // // // // // }
 
-// // // // // // // console.log(x + y);
+// // // // // // const x = 10;
+// // // // // // const y = 5;
 
-// // // // // // for (var i = 0; i <= 10; i++) {
-// // // // // //   console.log(i);
+// // // // // // if (x >= y) {
+// // // // // //   console.log(`${x} is greater than or equal to ${y}`);
+// // // // // // }
+// // // // // // if (x === y) {
+// // // // // //   console.log(`${x} is equal to ${y}`);
+// // // // // // } else {
+// // // // // //   console.log(`${x} is NOT equal to ${y}`);
 // // // // // // }
 
-// // // // // // console.log(i);
-
-// // // // // // // difference between var vs let & const
-// // // // // // if (true) {
-// // // // // //   const a = 500;
-// // // // // //   let b = 600;
-// // // // // //   var c = 700;
-// // // // // // }
-// // // // // // // var is not block scope , you can consolole log from outside
-// // // // // // console.log(c);
-
-// // // // // // // var is function scoped
-// // // // // // function run() {
-// // // // // //   var d = 100;
-// // // // // //   console.log(d);
+// // // // // // if (x !== y) {
+// // // // // //   const z = 20;
+// // // // // //   console.log(`${z} is 20`);
 // // // // // // }
 
-// // // // // // run();
+// // // // // const d = new Date(10, 30, 2022, 6, 0, 0);
+// // // // // const hour = d.getHours();
+// // // // // console.log(hour);
 
-// // // // // // Nested scope
-// // // // // // function first() {
-// // // // // //   const x = 100;
-
-// // // // // //   function second() {
-// // // // // //     const y = 200;
-// // // // // //     // console.log(x + y);
-// // // // // //   }
-
-// // // // // //   second();
-// // // // // // }
-
-// // // // // // first();
-
-// // // // // // // other method
-// // // // // // if (true) {
-// // // // // //   const x = 100;
-
-// // // // // //   if (x === 100) {
-// // // // // //     const y = 200;
-// // // // // //     console.log(x + y);
-// // // // // //   }
-// // // // // // }
-
-// // // // // // // function declaration
-// // // // // // function addDollarSign(value) {
-// // // // // //   return "$" + value;
-// // // // // // }
-
-// // // // // // console.log(addDollarSign(200));
-
-// // // // // // // Function Expression
-// // // // // // const addPlusSign = function (value) {
-// // // // // //   return "+" + value;
-// // // // // // // };
-
-// // // // // // // console.log(addPlusSign(300));
-
-// // // // // // // ARROW Functions
-// // // // // // // function add(a, b) {
-// // // // // // //     return a + b;
-// // // // // // // }
-
-// // // // // // // regular arrow function syntax
-// // // // // // const add = (a, b) => {
-// // // // // //   return a + b;
-// // // // // // };
-
-// // // // // // console.log(add(1, 2));
-
-// // // // // // // or
-
-// // // // // // // implicit return
-// // // // // // const subtract = (a, b) => a - b;
-
-// // // // // // console.log(subtract(11, 5));
-
-// // // // // // // can leave () with single params.
-// // // // // // const double = (a) => a * 2;
-
-// // // // // // console.log(double(10));
-
-// // // // // // // Returning   an object
-// // // // // // const createObj = () => ({
-// // // // // //   name: "Brad",
-// // // // // // });
-
-// // // // // // console.log(createObj());
-
-// // // // // // // high order array func.
-// // // // // // const numbers = [1, 2, 3, 4, 5];
-
-// // // // // // numbers.forEach(function (n) {
-// // // // // //   console.log(n);
-// // // // // // });
-
-// // // // // // // or Arrow function in a callback
-// // // // // // // numbers.forEach(function (n) {
-// // // // // // //   console.log(n);
-// // // // // // // });
-
-// // // // // // // IIFE
-// // // // // // (function () {
-// // // // // //   const user = "john";
-// // // // // //   console.log(user);
-// // // // // //   const hello = () => console.log("Hello from the IIFE");
-// // // // // //   hello();
-// // // // // // })();
-
-// // // // // // (function (name) {
-// // // // // //   console.log("Hello " + name);
-// // // // // // })("Shawn");
-
-// // // // // // // named IIFE
-// // // // // // (function hello() {
-// // // // // //   console.log("Hello");
-// // // // // //   //   hello() infinite loop
-// // // // // // });
-
-// // // // // // // challenge 1
-// // // // // // function getCelsius(f) {
-// // // // // //   const celsius = ((f - 32) * 5) / 9;
-// // // // // //   return celsius;
-// // // // // // }
-
-// // // // // // console.log(getCelsius(50));
-
-// // // // // const getCelsius = (f) => ((f - 32) * 5) / 9;
-
-// // // // // console.log(`The temp is ${getCelsius(50)} \xB0c`);
-
-// // // // // // challenge 2
-// // // // // function minMax(arr) {
-// // // // //   const min = Math.min(...arr);
-// // // // //   const max = Math.max(...arr);
-// // // // //   //   console.log(min);
-// // // // //   //   console.log(max);
-
-// // // // //   return {
-// // // // //     min,
-// // // // //     max,
-// // // // //   };
+// // // // // if (hour < 12) {
+// // // // //   console.log("Good Morning");
+// // // // // } else if (hour < 18) {
+// // // // //   console.log("Good Afternoon");
+// // // // // } else {
+// // // // //   console.log("Good Night");
 // // // // // }
 
-// // // // // console.log(minMax([1, 2, 3, 4, 5, 6]));
+// // // // // // Nested If
+// // // // // if (hour < 12) {
+// // // // //   console.log("Good Morning");
 
-// // // // // // challenge 3
-// // // // // ((length, width) => {
-// // // // //   const area = length * width;
+// // // // //   if (hour === 6) {
+// // // // //     console.log("Wake Up!");
+// // // // //   }
+// // // // // } else if (hour < 18) {
+// // // // //   console.log("Good Afternoon");
+// // // // // } else {
+// // // // //   console.log("Good Night");
 
-// // // // //   const output = `The area of a rectangle with a length of ${length} and a width of ${width} is ${area}.`;
-
-// // // // //   console.log(output);
-// // // // // })(20, 10);
-
-// // // // // const x = 100;
-// // // // // const y = 50;
-
-// // // // // function getSum(n1, n2) {
-// // // // //   const sum = n1 + n2;
-// // // // //   return sum;
+// // // // //   if (hour >= 20) {
+// // // // //     console.log("zzzzzzzz");
+// // // // //   }
 // // // // // }
 
-// // // // // const sum1 = getSum(x, y);
-// // // // // const sum2 = getSum(10, 5);
+// // // // // // multiple conditions
+// // // // // if (hour >= 7 && hour < 15) {
+// // // // //   console.log("It is work Time");
+// // // // // }
 
-// // // // // console.log(sum1, sum2);
+// // // // // // or
+// // // // // if (hour === 6 || hour === 20) {
+// // // // //   console.log("Brush Your Teeth");
+// // // // // }
 
-// // // // // call stack
+// // // // const d = new Date(2022, 1, 10, 19, 0, 0);
+// // // // const month = d.getMonth();
+// // // // const hour = d.getHours();
 
-// // // // // first Example
-// // // // function first() {
-// // // //   console.log("first...");
+// // // // switch ((n = month)) {
+// // // //   case 1:
+// // // //     console.log("It is January");
+// // // //     break;
+// // // //   case 2:
+// // // //     console.log("It is February");
+// // // //     break;
+// // // //   case 3:
+// // // //     console.log("It is March");
+// // // //     break;
+// // // //   default:
+// // // //     console.log("It is not Jan, Feb or March");
 // // // // }
 
-// // // // function second() {
-// // // //   console.log("second...");
+// // // // switch (true) {
+// // // //   case hour < 12:
+// // // //     console.log("Good Morning");
+// // // //     break;
+// // // //   case hour < 18:
+// // // //     console.log("Good Afternoon");
+// // // //     break;
+// // // //   default:
+// // // //     console.log("Good Night");
+// // // // }
+// // // // switch (true) {
+// // // //   case hour < 12:
+// // // //     console.log("Good Morning");
+// // // //     break;
+// // // //   case hour < 18:
+// // // //     console.log("Good Afternoon");
+// // // //     break;
+// // // //   default:
+// // // //     console.log("Good Night");
+// // // // }
+// // // // switch (true) {
+// // // //   case hour < 12:
+// // // //     console.log("Good Morning");
+// // // //     break;
+// // // //   case hour < 18:
+// // // //     console.log("Good Afternoon");
+// // // //     break;
+// // // //   default:
+// // // //     console.log("Good Night");
+// // // // }
+// // // // switch (true) {
+// // // //   case hour < 12:
+// // // //     console.log("Good Morning");
+// // // //     break;
+// // // //   case hour < 18:
+// // // //     console.log("Good Afternoon");
+// // // //     break;
+// // // //   default:
+// // // //     console.log("Good Night");
+// // // // }
+// // // // switch (true) {
+// // // //   case hour < 12:
+// // // //     console.log("Good Morning");
+// // // //     break;
+// // // //   case hour < 18:
+// // // //     console.log("Good Afternoon");
+// // // //     break;
+// // // //   default:
+// // // //     console.log("Good Night");
+// // // // }
+// // // // switch (true) {
+// // // //   case hour < 12:
+// // // //     console.log("Good Morning");
+// // // //     break;
+// // // //   case hour < 18:
+// // // //     console.log("Good Afternoon");
+// // // //     break;
+// // // //   default:
+// // // //     console.log("Good Night");
+// // // // }
+// // // // switch (true) {
+// // // //   case hour < 12:
+// // // //     console.log("Good Morning");
+// // // //     break;
+// // // //   case hour < 18:
+// // // //     console.log("Good Afternoon");
+// // // //     break;
+// // // //   default:
+// // // //     console.log("Good Night");
+// // // // }
+// // // // switch (true) {
+// // // //   case hour < 12:
+// // // //     console.log("Good Morning");
+// // // //     break;
+// // // //   case hour < 18:
+// // // //     console.log("Good Afternoon");
+// // // //     break;
+// // // //   default:
+// // // //     console.log("Good Night");
+// // // // }
+// // // // switch (true) {
+// // // //   case hour < 12:
+// // // //     console.log("Good Morning");
+// // // //     break;
+// // // //   case hour < 18:
+// // // //     console.log("Good Afternoon");
+// // // //     break;
+// // // //   default:
+// // // //     console.log("Good Night");
+// // // // }
+// // // // switch (true) {
+// // // //   case hour < 12:
+// // // //     console.log("Good Morning");
+// // // //     break;
+// // // //   case hour < 18:
+// // // //     console.log("Good Afternoon");
+// // // //     break;
+// // // //   default:
+// // // //     console.log("Good Night");
+// // // // }
+// // // // switch (true) {
+// // // //   case hour < 12:
+// // // //     console.log("Good Morning");
+// // // //     break;
+// // // //   case hour < 18:
+// // // //     console.log("Good Afternoon");
+// // // //     break;
+// // // //   default:
+// // // //     console.log("Good Night");
+// // // // }
+// // // // switch (true) {
+// // // //   case hour < 12:
+// // // //     console.log("Good Morning");
+// // // //     break;
+// // // //   case hour < 18:
+// // // //     console.log("Good Afternoon");
+// // // //     break;
+// // // //   default:
+// // // //     console.log("Good Night");
+// // // // }
+// // // // switch (true) {
+// // // //   case hour < 12:
+// // // //     console.log("Good Morning");
+// // // //     break;
+// // // //   case hour < 18:
+// // // //     console.log("Good Afternoon");
+// // // //     break;
+// // // //   default:
+// // // //     console.log("Good Night");
+// // // // }
+// // // // switch (true) {
+// // // //   case hour < 12:
+// // // //     console.log("Good Morning");
+// // // //     break;
+// // // //   case hour < 18:
+// // // //     console.log("Good Afternoon");
+// // // //     break;
+// // // //   default:
+// // // //     console.log("Good Night");
+// // // // }
+// // // // switch (true) {
+// // // //   case hour < 12:
+// // // //     console.log("Good Morning");
+// // // //     break;
+// // // //   case hour < 18:
+// // // //     console.log("Good Afternoon");
+// // // //     break;
+// // // //   default:
+// // // //     console.log("Good Night");
+// // // // }
+// // // // switch (true) {
+// // // //   case hour < 12:
+// // // //     console.log("Good Morning");
+// // // //     break;
+// // // //   case hour < 18:
+// // // //     console.log("Good Afternoon");
+// // // //     break;
+// // // //   default:
+// // // //     console.log("Good Night");
+// // // // }
+// // // // switch (true) {
+// // // //   case hour < 12:
+// // // //     console.log("Good Morning");
+// // // //     break;
+// // // //   case hour < 18:
+// // // //     console.log("Good Afternoon");
+// // // //     break;
+// // // //   default:
+// // // //     console.log("Good Night");
+// // // // }
+// // // // switch (true) {
+// // // //   case hour < 12:
+// // // //     console.log("Good Morning");
+// // // //     break;
+// // // //   case hour < 18:
+// // // //     console.log("Good Afternoon");
+// // // //     break;
+// // // //   default:
+// // // //     console.log("Good Night");
+// // // // }
+// // // // switch (true) {
+// // // //   case hour < 12:
+// // // //     console.log("Good Morning");
+// // // //     break;
+// // // //   case hour < 18:
+// // // //     console.log("Good Afternoon");
+// // // //     break;
+// // // //   default:
+// // // //     console.log("Good Night");
+// // // // }
+// // // // switch (true) {
+// // // //   case hour < 12:
+// // // //     console.log("Good Morning");
+// // // //     break;
+// // // //   case hour < 18:
+// // // //     console.log("Good Afternoon");
+// // // //     break;
+// // // //   default:
+// // // //     console.log("Good Night");
+// // // // }
+// // // // switch (true) {
+// // // //   case hour < 12:
+// // // //     console.log("Good Morning");
+// // // //     break;
+// // // //   case hour < 18:
+// // // //     console.log("Good Afternoon");
+// // // //     break;
+// // // //   default:
+// // // //     console.log("Good Night");
+// // // // }
+// // // // switch (true) {
+// // // //   case hour < 12:
+// // // //     console.log("Good Morning");
+// // // //     break;
+// // // //   case hour < 18:
+// // // //     console.log("Good Afternoon");
+// // // //     break;
+// // // //   default:
+// // // //     console.log("Good Night");
+// // // // }
+// // // // switch (true) {
+// // // //   case hour < 12:
+// // // //     console.log("Good Morning");
+// // // //     break;
+// // // //   case hour < 18:
+// // // //     console.log("Good Afternoon");
+// // // //     break;
+// // // //   default:
+// // // //     console.log("Good Night");
+// // // // }
+// // // // switch (true) {
+// // // //   case hour < 12:
+// // // //     console.log("Good Morning");
+// // // //     break;
+// // // //   case hour < 18:
+// // // //     console.log("Good Afternoon");
+// // // //     break;
+// // // //   default:
+// // // //     console.log("Good Night");
+// // // // }
+// // // // switch (true) {
+// // // //   case hour < 12:
+// // // //     console.log("Good Morning");
+// // // //     break;
+// // // //   case hour < 18:
+// // // //     console.log("Good Afternoon");
+// // // //     break;
+// // // //   default:
+// // // //     console.log("Good Night");
+// // // // }
+// // // // switch (true) {
+// // // //   case hour < 12:
+// // // //     console.log("Good Morning");
+// // // //     break;
+// // // //   case hour < 18:
+// // // //     console.log("Good Afternoon");
+// // // //     break;
+// // // //   default:
+// // // //     console.log("Good Night");
+// // // // }
+// // // // switch (true) {
+// // // //   case hour < 12:
+// // // //     console.log("Good Morning");
+// // // //     break;
+// // // //   case hour < 18:
+// // // //     console.log("Good Afternoon");
+// // // //     break;
+// // // //   default:
+// // // //     console.log("Good Night");
+// // // // }
+// // // // switch (true) {
+// // // //   case hour < 12:
+// // // //     console.log("Good Morning");
+// // // //     break;
+// // // //   case hour < 18:
+// // // //     console.log("Good Afternoon");
+// // // //     break;
+// // // //   default:
+// // // //     console.log("Good Night");
+// // // // }
+// // // // switch (true) {
+// // // //   case hour < 12:
+// // // //     console.log("Good Morning");
+// // // //     break;
+// // // //   case hour < 18:
+// // // //     console.log("Good Afternoon");
+// // // //     break;
+// // // //   default:
+// // // //     console.log("Good Night");
+// // // // }
+// // // // switch (true) {
+// // // //   case hour < 12:
+// // // //     console.log("Good Morning");
+// // // //     break;
+// // // //   case hour < 18:
+// // // //     console.log("Good Afternoon");
+// // // //     break;
+// // // //   default:
+// // // //     console.log("Good Night");
+// // // // }
+// // // // switch (true) {
+// // // //   case hour < 12:
+// // // //     console.log("Good Morning");
+// // // //     break;
+// // // //   case hour < 18:
+// // // //     console.log("Good Afternoon");
+// // // //     break;
+// // // //   default:
+// // // //     console.log("Good Night");
+// // // // }
+// // // // switch (true) {
+// // // //   case hour < 12:
+// // // //     console.log("Good Morning");
+// // // //     break;
+// // // //   case hour < 18:
+// // // //     console.log("Good Afternoon");
+// // // //     break;
+// // // //   default:
+// // // //     console.log("Good Night");
+// // // // }
+// // // // switch (true) {
+// // // //   case hour < 12:
+// // // //     console.log("Good Morning");
+// // // //     break;
+// // // //   case hour < 18:
+// // // //     console.log("Good Afternoon");
+// // // //     break;
+// // // //   default:
+// // // //     console.log("Good Night");
+// // // // }
+// // // // switch (true) {
+// // // //   case hour < 12:
+// // // //     console.log("Good Morning");
+// // // //     break;
+// // // //   case hour < 18:
+// // // //     console.log("Good Afternoon");
+// // // //     break;
+// // // //   default:
+// // // //     console.log("Good Night");
+// // // // }
+// // // // switch (true) {
+// // // //   case hour < 12:
+// // // //     console.log("Good Morning");
+// // // //     break;
+// // // //   case hour < 18:
+// // // //     console.log("Good Afternoon");
+// // // //     break;
+// // // //   default:
+// // // //     console.log("Good Night");
+// // // // }
+// // // // switch (true) {
+// // // //   case hour < 12:
+// // // //     console.log("Good Morning");
+// // // //     break;
+// // // //   case hour < 18:
+// // // //     console.log("Good Afternoon");
+// // // //     break;
+// // // //   default:
+// // // //     console.log("Good Night");
+// // // // }
+// // // // switch (true) {
+// // // //   case hour < 12:
+// // // //     console.log("Good Morning");
+// // // //     break;
+// // // //   case hour < 18:
+// // // //     console.log("Good Afternoon");
+// // // //     break;
+// // // //   default:
+// // // //     console.log("Good Night");
+// // // // }
+// // // // switch (true) {
+// // // //   case hour < 12:
+// // // //     console.log("Good Morning");
+// // // //     break;
+// // // //   case hour < 18:
+// // // //     console.log("Good Afternoon");
+// // // //     break;
+// // // //   default:
+// // // //     console.log("Good Night");
+// // // // }
+// // // // switch (true) {
+// // // //   case hour < 12:
+// // // //     console.log("Good Morning");
+// // // //     break;
+// // // //   case hour < 18:
+// // // //     console.log("Good Afternoon");
+// // // //     break;
+// // // //   default:
+// // // //     console.log("Good Night");
+// // // // }
+// // // // switch (true) {
+// // // //   case hour < 12:
+// // // //     console.log("Good Morning");
+// // // //     break;
+// // // //   case hour < 18:
+// // // //     console.log("Good Afternoon");
+// // // //     break;
+// // // //   default:
+// // // //     console.log("Good Night");
+// // // // }
+// // // // switch (true) {
+// // // //   case hour < 12:
+// // // //     console.log("Good Morning");
+// // // //     break;
+// // // //   case hour < 18:
+// // // //     console.log("Good Afternoon");
+// // // //     break;
+// // // //   default:
+// // // //     console.log("Good Night");
+// // // // }
+// // // // switch (true) {
+// // // //   case hour < 12:
+// // // //     console.log("Good Morning");
+// // // //     break;
+// // // //   case hour < 18:
+// // // //     console.log("Good Afternoon");
+// // // //     break;
+// // // //   default:
+// // // //     console.log("Good Night");
+// // // // }
+// // // // switch (true) {
+// // // //   case hour < 12:
+// // // //     console.log("Good Morning");
+// // // //     break;
+// // // //   case hour < 18:
+// // // //     console.log("Good Afternoon");
+// // // //     break;
+// // // //   default:
+// // // //     console.log("Good Night");
+// // // // }
+// // // // switch (true) {
+// // // //   case hour < 12:
+// // // //     console.log("Good Morning");
+// // // //     break;
+// // // //   case hour < 18:
+// // // //     console.log("Good Afternoon");
+// // // //     break;
+// // // //   default:
+// // // //     console.log("Good Night");
+// // // // }
+// // // // switch (true) {
+// // // //   case hour < 12:
+// // // //     console.log("Good Morning");
+// // // //     break;
+// // // //   case hour < 18:
+// // // //     console.log("Good Afternoon");
+// // // //     break;
+// // // //   default:
+// // // //     console.log("Good Night");
+// // // // }
+// // // // switch (true) {
+// // // //   case hour < 12:
+// // // //     console.log("Good Morning");
+// // // //     break;
+// // // //   case hour < 18:
+// // // //     console.log("Good Afternoon");
+// // // //     break;
+// // // //   default:
+// // // //     console.log("Good Night");
+// // // // }
+// // // // switch (true) {
+// // // //   case hour < 12:
+// // // //     console.log("Good Morning");
+// // // //     break;
+// // // //   case hour < 18:
+// // // //     console.log("Good Afternoon");
+// // // //     break;
+// // // //   default:
+// // // //     console.log("Good Night");
+// // // // }
+// // // // switch (true) {
+// // // //   case hour < 12:
+// // // //     console.log("Good Morning");
+// // // //     break;
+// // // //   case hour < 18:
+// // // //     console.log("Good Afternoon");
+// // // //     break;
+// // // //   default:
+// // // //     console.log("Good Night");
+// // // // }
+// // // // switch (true) {
+// // // //   case hour < 12:
+// // // //     console.log("Good Morning");
+// // // //     break;
+// // // //   case hour < 18:
+// // // //     console.log("Good Afternoon");
+// // // //     break;
+// // // //   default:
+// // // //     console.log("Good Night");
+// // // // }
+// // // // switch (true) {
+// // // //   case hour < 12:
+// // // //     console.log("Good Morning");
+// // // //     break;
+// // // //   case hour < 18:
+// // // //     console.log("Good Afternoon");
+// // // //     break;
+// // // //   default:
+// // // //     console.log("Good Night");
+// // // // }
+// // // // switch (true) {
+// // // //   case hour < 12:
+// // // //     console.log("Good Morning");
+// // // //     break;
+// // // //   case hour < 18:
+// // // //     console.log("Good Afternoon");
+// // // //     break;
+// // // //   default:
+// // // //     console.log("Good Night");
+// // // // }
+// // // // switch (true) {
+// // // //   case hour < 12:
+// // // //     console.log("Good Morning");
+// // // //     break;
+// // // //   case hour < 18:
+// // // //     console.log("Good Afternoon");
+// // // //     break;
+// // // //   default:
+// // // //     console.log("Good Night");
+// // // // }
+// // // // switch (true) {
+// // // //   case hour < 12:
+// // // //     console.log("Good Morning");
+// // // //     break;
+// // // //   case hour < 18:
+// // // //     console.log("Good Afternoon");
+// // // //     break;
+// // // //   default:
+// // // //     console.log("Good Night");
+// // // // }
+// // // // switch (true) {
+// // // //   case hour < 12:
+// // // //     console.log("Good Morning");
+// // // //     break;
+// // // //   case hour < 18:
+// // // //     console.log("Good Afternoon");
+// // // //     break;
+// // // //   default:
+// // // //     console.log("Good Night");
+// // // // }
+// // // // switch (true) {
+// // // //   case hour < 12:
+// // // //     console.log("Good Morning");
+// // // //     break;
+// // // //   case hour < 18:
+// // // //     console.log("Good Afternoon");
+// // // //     break;
+// // // //   default:
+// // // //     console.log("Good Night");
+// // // // }
+// // // // switch (true) {
+// // // //   case hour < 12:
+// // // //     console.log("Good Morning");
+// // // //     break;
+// // // //   case hour < 18:
+// // // //     console.log("Good Afternoon");
+// // // //     break;
+// // // //   default:
+// // // //     console.log("Good Night");
+// // // // }
+// // // // switch (true) {
+// // // //   case hour < 12:
+// // // //     console.log("Good Morning");
+// // // //     break;
+// // // //   case hour < 18:
+// // // //     console.log("Good Afternoon");
+// // // //     break;
+// // // //   default:
+// // // //     console.log("Good Night");
+// // // // }
+// // // // switch (true) {
+// // // //   case hour < 12:
+// // // //     console.log("Good Morning");
+// // // //     break;
+// // // //   case hour < 18:
+// // // //     console.log("Good Afternoon");
+// // // //     break;
+// // // //   default:
+// // // //     console.log("Good Night");
+// // // // }
+// // // // switch (true) {
+// // // //   case hour < 12:
+// // // //     console.log("Good Morning");
+// // // //     break;
+// // // //   case hour < 18:
+// // // //     console.log("Good Afternoon");
+// // // //     break;
+// // // //   default:
+// // // //     console.log("Good Night");
+// // // // }
+// // // // switch (true) {
+// // // //   case hour < 12:
+// // // //     console.log("Good Morning");
+// // // //     break;
+// // // //   case hour < 18:
+// // // //     console.log("Good Afternoon");
+// // // //     break;
+// // // //   default:
+// // // //     console.log("Good Night");
+// // // // }
+// // // // switch (true) {
+// // // //   case hour < 12:
+// // // //     console.log("Good Morning");
+// // // //     break;
+// // // //   case hour < 18:
+// // // //     console.log("Good Afternoon");
+// // // //     break;
+// // // //   default:
+// // // //     console.log("Good Night");
+// // // // }
+// // // // switch (true) {
+// // // //   case hour < 12:
+// // // //     console.log("Good Morning");
+// // // //     break;
+// // // //   case hour < 18:
+// // // //     console.log("Good Afternoon");
+// // // //     break;
+// // // //   default:
+// // // //     console.log("Good Night");
+// // // // }
+// // // // switch (true) {
+// // // //   case hour < 12:
+// // // //     console.log("Good Morning");
+// // // //     break;
+// // // //   case hour < 18:
+// // // //     console.log("Good Afternoon");
+// // // //     break;
+// // // //   default:
+// // // //     console.log("Good Night");
+// // // // }
+// // // // switch (true) {
+// // // //   case hour < 12:
+// // // //     console.log("Good Morning");
+// // // //     break;
+// // // //   case hour < 18:
+// // // //     console.log("Good Afternoon");
+// // // //     break;
+// // // //   default:
+// // // //     console.log("Good Night");
 // // // // }
 
-// // // // function third() {
-// // // //   console.log("third...");
+// // // // // Calculator challenge
+// // // // function calculator(num1, num2, operator) {
+// // // //   let result;
+
+// // // //   switch (operator) {
+// // // //     case "+":
+// // // //       result = num1 + num2;
+// // // //       break;
+// // // //     case "-":
+// // // //       result = num1 - num2;
+// // // //       break;
+// // // //     case "*":
+// // // //       result = num1 * num2;
+// // // //       break;
+// // // //     case "/":
+// // // //       result = num1 / num2;
+// // // //       break;
+// // // //     default:
+// // // //       result = "Invalid Operator";
+// // // //   }
+
+// // // //   console.log(result);
 // // // // }
 
-// // // // first();
-// // // // second();
-// // // // third();
+// // // // calculator(5, 2, "/");
 
-// // // // if Statements
+// // // // const email = "test@test.com";
 
-// // // if (true) {
-// // //   console.log("This is true");
-// // // }
+// // // // if (email) {
+// // // //   console.log("You passed in an email");
+// // // // }
 
-// // // if (false) {
-// // //   console.log("This is NOT true");
-// // // }
+// // // // console.log(Boolean(email));
 
-// // // const x = 10;
-// // // const y = 5;
+// // // // Falsy Values:
+// // // // - false
+// // // //  - 0
+// // // //  - "" or '' (Empty string)
+// // // //  - null
+// // // //  - undefined
+// // // //  - NaN
 
-// // // if (x >= y) {
-// // //   console.log(`${x} is greater than or equal to ${y}`);
-// // // }
-// // // if (x === y) {
-// // //   console.log(`${x} is equal to ${y}`);
+// // // const x = "false";
+// // // // const x = 0, '', null, NaN; all false
+// // // if (x) {
+// // //   console.log("This is truthy");
 // // // } else {
-// // //   console.log(`${x} is NOT equal to ${y}`);
+// // //   console.log("This is falsy");
 // // // }
 
-// // // if (x !== y) {
-// // //   const z = 20;
-// // //   console.log(`${z} is 20`);
+// // // console.log(Boolean(x));
+
+// // // // Tuthy and falsy caveats
+// // // const children = 0;
+
+// // // if (children !== undefined) {
+// // //   console.log(`You have ${children} children`);
+// // // } else {
+// // //   console.log("Please enter number of children");
 // // // }
 
-// // const d = new Date(10, 30, 2022, 6, 0, 0);
-// // const hour = d.getHours();
-// // console.log(hour);
+// // // //  checking for empty arrays
+// // // const posts = ["post One"];
 
-// // if (hour < 12) {
-// //   console.log("Good Morning");
-// // } else if (hour < 18) {
-// //   console.log("Good Afternoon");
+// // // if (posts.length > 0) {
+// // //   console.log("List Posts");
+// // // } else {
+// // //   console.log("No Posts to list");
+// // // }
+
+// // // // Checking for empty objects
+// // // const user = {
+// // //   //   name: "Brad",
+// // // };
+
+// // // if (Object.keys(user).length > 0) {
+// // //   console.log("List User");
+// // // } else {
+// // //   console.log("No User");
+// // // }
+
+// // // // loose Equality (==)
+// // // console.log(false === 0);
+// // // console.log("" === 0);
+// // // console.log(null === undefined);
+
+// // console.log(10 < 20 && 30 > 15 && 40 > 30);
+// // console.log(10 > 20 || 30 > 15);
+
+// // // && - Will return first falsy value or last value
+// // let a;
+
+// // a = 10 && 20;
+// // a = 10 && 20 && 30;
+// // a = 10 && 0 && 30;
+// // a = 10 && "" && 0 && 30;
+
+// // console.log(a);
+
+// // const posts = ["Post One", "Post Two"];
+// // posts.length > 0 && console.log(posts[0]);
+
+// // // || - will return first truthy value or the the last value
+
+// // let b;
+
+// // b = 10 || 20;
+// // // b = 0 || 20;
+// // // b = 0 || null || "" || undefined;
+
+// // // console.log(b);
+
+// // // //  ?? - Returns the right side operand when the left is null
+// // // // or undefined
+// // // let c;
+
+// // // c = 10 ?? 20;
+// // // c = null ?? 20;
+// // // c = undefined ?? 30;
+// // // c = 0 ?? 30;
+// // // c = "" ?? 30;
+
+// // // console.log(c);
+
+// // let a = 40;
+
+// // // if (!a) {
+// // //   a = 10;
+// // // }
+
+// // a = a || 10;
+
+// // a ||= 10;
+
+// // console.log(a);
+
+// // let b = 10;
+
+// // if (b) {
+// //   b = 20;
+// // }
+
+// const age = 17;
+
+// // using if statement
+// if (age >= 18) {
+//   console.log("You can vote!");
+// } else {
+//   console.log("You can not vote");
+// }
+
+// // using a ternary operator
+// age >= 18 ? console.log("You can vote!") : console.log("You can not vote");
+
+// // Assigning a conditional value to a variable
+// const canVote = age >= 18 ? true : false;
+// const canVote2 = age >= 18 ? "You can vote!" : "You can not Vote";
+
+// console.log(canVote);
+// console.log(canVote2);
+
+// // Multiple statements
+
+// const auth = true;
+// // let redirect;
+
+// // if (auth) {
+// //   alert("Welcome to the dashboard");
+// //   redirect = "/dashboard";
 // // } else {
-// //   console.log("Good Night");
+// //   alert("Access Denied");
+// //   redirect = "/Login";
 // // }
 
-// // // Nested If
-// // if (hour < 12) {
-// //   console.log("Good Morning");
+// // const redirect = auth
+// //   ? alert("Welcome to the dashboard")
+// //   : (alert("Acess Denied"), "/Login");
 
-// //   if (hour === 6) {
-// //     console.log("Wake Up!");
-// //   }
-// // } else if (hour < 18) {
-// //   console.log("Good Afternoon");
-// // } else {
-// //   console.log("Good Night");
+// // console.log(redirect);
 
-// //   if (hour >= 20) {
-// //     console.log("zzzzzzzz");
-// //   }
-// // }
+// auth ? console.log("Welcome to the dashboard") : null;
 
-// // // multiple conditions
-// // if (hour >= 7 && hour < 15) {
-// //   console.log("It is work Time");
-// // }
+// auth && console.log("Welcome to the Dashboard");
 
-// // // or
-// // if (hour === 6 || hour === 20) {
-// //   console.log("Brush Your Teeth");
-// // }
+// For loop
+// for ([initialExpression]; [conditionExpression]; [incrementExpression])
+//   statement;
 
-// const d = new Date(2022, 1, 10, 19, 0, 0);
-// const month = d.getMonth();
-// const hour = d.getHours();
-
-// switch ((n = month)) {
-//   case 1:
-//     console.log("It is January");
-//     break;
-//   case 2:
-//     console.log("It is February");
-//     break;
-//   case 3:
-//     console.log("It is March");
-//     break;
-//   default:
-//     console.log("It is not Jan, Feb or March");
-// }
-
-// switch (true) {
-//   case hour < 12:
-//     console.log("Good Morning");
-//     break;
-//   case hour < 18:
-//     console.log("Good Afternoon");
-//     break;
-//   default:
-//     console.log("Good Night");
-// }
-// switch (true) {
-//   case hour < 12:
-//     console.log("Good Morning");
-//     break;
-//   case hour < 18:
-//     console.log("Good Afternoon");
-//     break;
-//   default:
-//     console.log("Good Night");
-// }
-// switch (true) {
-//   case hour < 12:
-//     console.log("Good Morning");
-//     break;
-//   case hour < 18:
-//     console.log("Good Afternoon");
-//     break;
-//   default:
-//     console.log("Good Night");
-// }
-// switch (true) {
-//   case hour < 12:
-//     console.log("Good Morning");
-//     break;
-//   case hour < 18:
-//     console.log("Good Afternoon");
-//     break;
-//   default:
-//     console.log("Good Night");
-// }
-// switch (true) {
-//   case hour < 12:
-//     console.log("Good Morning");
-//     break;
-//   case hour < 18:
-//     console.log("Good Afternoon");
-//     break;
-//   default:
-//     console.log("Good Night");
-// }
-// switch (true) {
-//   case hour < 12:
-//     console.log("Good Morning");
-//     break;
-//   case hour < 18:
-//     console.log("Good Afternoon");
-//     break;
-//   default:
-//     console.log("Good Night");
-// }
-// switch (true) {
-//   case hour < 12:
-//     console.log("Good Morning");
-//     break;
-//   case hour < 18:
-//     console.log("Good Afternoon");
-//     break;
-//   default:
-//     console.log("Good Night");
-// }
-// switch (true) {
-//   case hour < 12:
-//     console.log("Good Morning");
-//     break;
-//   case hour < 18:
-//     console.log("Good Afternoon");
-//     break;
-//   default:
-//     console.log("Good Night");
-// }
-// switch (true) {
-//   case hour < 12:
-//     console.log("Good Morning");
-//     break;
-//   case hour < 18:
-//     console.log("Good Afternoon");
-//     break;
-//   default:
-//     console.log("Good Night");
-// }
-// switch (true) {
-//   case hour < 12:
-//     console.log("Good Morning");
-//     break;
-//   case hour < 18:
-//     console.log("Good Afternoon");
-//     break;
-//   default:
-//     console.log("Good Night");
-// }
-// switch (true) {
-//   case hour < 12:
-//     console.log("Good Morning");
-//     break;
-//   case hour < 18:
-//     console.log("Good Afternoon");
-//     break;
-//   default:
-//     console.log("Good Night");
-// }
-// switch (true) {
-//   case hour < 12:
-//     console.log("Good Morning");
-//     break;
-//   case hour < 18:
-//     console.log("Good Afternoon");
-//     break;
-//   default:
-//     console.log("Good Night");
-// }
-// switch (true) {
-//   case hour < 12:
-//     console.log("Good Morning");
-//     break;
-//   case hour < 18:
-//     console.log("Good Afternoon");
-//     break;
-//   default:
-//     console.log("Good Night");
-// }
-// switch (true) {
-//   case hour < 12:
-//     console.log("Good Morning");
-//     break;
-//   case hour < 18:
-//     console.log("Good Afternoon");
-//     break;
-//   default:
-//     console.log("Good Night");
-// }
-// switch (true) {
-//   case hour < 12:
-//     console.log("Good Morning");
-//     break;
-//   case hour < 18:
-//     console.log("Good Afternoon");
-//     break;
-//   default:
-//     console.log("Good Night");
-// }
-// switch (true) {
-//   case hour < 12:
-//     console.log("Good Morning");
-//     break;
-//   case hour < 18:
-//     console.log("Good Afternoon");
-//     break;
-//   default:
-//     console.log("Good Night");
-// }
-// switch (true) {
-//   case hour < 12:
-//     console.log("Good Morning");
-//     break;
-//   case hour < 18:
-//     console.log("Good Afternoon");
-//     break;
-//   default:
-//     console.log("Good Night");
-// }
-// switch (true) {
-//   case hour < 12:
-//     console.log("Good Morning");
-//     break;
-//   case hour < 18:
-//     console.log("Good Afternoon");
-//     break;
-//   default:
-//     console.log("Good Night");
-// }
-// switch (true) {
-//   case hour < 12:
-//     console.log("Good Morning");
-//     break;
-//   case hour < 18:
-//     console.log("Good Afternoon");
-//     break;
-//   default:
-//     console.log("Good Night");
-// }
-// switch (true) {
-//   case hour < 12:
-//     console.log("Good Morning");
-//     break;
-//   case hour < 18:
-//     console.log("Good Afternoon");
-//     break;
-//   default:
-//     console.log("Good Night");
-// }
-// switch (true) {
-//   case hour < 12:
-//     console.log("Good Morning");
-//     break;
-//   case hour < 18:
-//     console.log("Good Afternoon");
-//     break;
-//   default:
-//     console.log("Good Night");
-// }
-// switch (true) {
-//   case hour < 12:
-//     console.log("Good Morning");
-//     break;
-//   case hour < 18:
-//     console.log("Good Afternoon");
-//     break;
-//   default:
-//     console.log("Good Night");
-// }
-// switch (true) {
-//   case hour < 12:
-//     console.log("Good Morning");
-//     break;
-//   case hour < 18:
-//     console.log("Good Afternoon");
-//     break;
-//   default:
-//     console.log("Good Night");
-// }
-// switch (true) {
-//   case hour < 12:
-//     console.log("Good Morning");
-//     break;
-//   case hour < 18:
-//     console.log("Good Afternoon");
-//     break;
-//   default:
-//     console.log("Good Night");
-// }
-// switch (true) {
-//   case hour < 12:
-//     console.log("Good Morning");
-//     break;
-//   case hour < 18:
-//     console.log("Good Afternoon");
-//     break;
-//   default:
-//     console.log("Good Night");
-// }
-// switch (true) {
-//   case hour < 12:
-//     console.log("Good Morning");
-//     break;
-//   case hour < 18:
-//     console.log("Good Afternoon");
-//     break;
-//   default:
-//     console.log("Good Night");
-// }
-// switch (true) {
-//   case hour < 12:
-//     console.log("Good Morning");
-//     break;
-//   case hour < 18:
-//     console.log("Good Afternoon");
-//     break;
-//   default:
-//     console.log("Good Night");
-// }
-// switch (true) {
-//   case hour < 12:
-//     console.log("Good Morning");
-//     break;
-//   case hour < 18:
-//     console.log("Good Afternoon");
-//     break;
-//   default:
-//     console.log("Good Night");
-// }
-// switch (true) {
-//   case hour < 12:
-//     console.log("Good Morning");
-//     break;
-//   case hour < 18:
-//     console.log("Good Afternoon");
-//     break;
-//   default:
-//     console.log("Good Night");
-// }
-// switch (true) {
-//   case hour < 12:
-//     console.log("Good Morning");
-//     break;
-//   case hour < 18:
-//     console.log("Good Afternoon");
-//     break;
-//   default:
-//     console.log("Good Night");
-// }
-// switch (true) {
-//   case hour < 12:
-//     console.log("Good Morning");
-//     break;
-//   case hour < 18:
-//     console.log("Good Afternoon");
-//     break;
-//   default:
-//     console.log("Good Night");
-// }
-// switch (true) {
-//   case hour < 12:
-//     console.log("Good Morning");
-//     break;
-//   case hour < 18:
-//     console.log("Good Afternoon");
-//     break;
-//   default:
-//     console.log("Good Night");
-// }
-// switch (true) {
-//   case hour < 12:
-//     console.log("Good Morning");
-//     break;
-//   case hour < 18:
-//     console.log("Good Afternoon");
-//     break;
-//   default:
-//     console.log("Good Night");
-// }
-// switch (true) {
-//   case hour < 12:
-//     console.log("Good Morning");
-//     break;
-//   case hour < 18:
-//     console.log("Good Afternoon");
-//     break;
-//   default:
-//     console.log("Good Night");
-// }
-// switch (true) {
-//   case hour < 12:
-//     console.log("Good Morning");
-//     break;
-//   case hour < 18:
-//     console.log("Good Afternoon");
-//     break;
-//   default:
-//     console.log("Good Night");
-// }
-// switch (true) {
-//   case hour < 12:
-//     console.log("Good Morning");
-//     break;
-//   case hour < 18:
-//     console.log("Good Afternoon");
-//     break;
-//   default:
-//     console.log("Good Night");
-// }
-// switch (true) {
-//   case hour < 12:
-//     console.log("Good Morning");
-//     break;
-//   case hour < 18:
-//     console.log("Good Afternoon");
-//     break;
-//   default:
-//     console.log("Good Night");
-// }
-// switch (true) {
-//   case hour < 12:
-//     console.log("Good Morning");
-//     break;
-//   case hour < 18:
-//     console.log("Good Afternoon");
-//     break;
-//   default:
-//     console.log("Good Night");
-// }
-// switch (true) {
-//   case hour < 12:
-//     console.log("Good Morning");
-//     break;
-//   case hour < 18:
-//     console.log("Good Afternoon");
-//     break;
-//   default:
-//     console.log("Good Night");
-// }
-// switch (true) {
-//   case hour < 12:
-//     console.log("Good Morning");
-//     break;
-//   case hour < 18:
-//     console.log("Good Afternoon");
-//     break;
-//   default:
-//     console.log("Good Night");
-// }
-// switch (true) {
-//   case hour < 12:
-//     console.log("Good Morning");
-//     break;
-//   case hour < 18:
-//     console.log("Good Afternoon");
-//     break;
-//   default:
-//     console.log("Good Night");
-// }
-// switch (true) {
-//   case hour < 12:
-//     console.log("Good Morning");
-//     break;
-//   case hour < 18:
-//     console.log("Good Afternoon");
-//     break;
-//   default:
-//     console.log("Good Night");
-// }
-// switch (true) {
-//   case hour < 12:
-//     console.log("Good Morning");
-//     break;
-//   case hour < 18:
-//     console.log("Good Afternoon");
-//     break;
-//   default:
-//     console.log("Good Night");
-// }
-// switch (true) {
-//   case hour < 12:
-//     console.log("Good Morning");
-//     break;
-//   case hour < 18:
-//     console.log("Good Afternoon");
-//     break;
-//   default:
-//     console.log("Good Night");
-// }
-// switch (true) {
-//   case hour < 12:
-//     console.log("Good Morning");
-//     break;
-//   case hour < 18:
-//     console.log("Good Afternoon");
-//     break;
-//   default:
-//     console.log("Good Night");
-// }
-// switch (true) {
-//   case hour < 12:
-//     console.log("Good Morning");
-//     break;
-//   case hour < 18:
-//     console.log("Good Afternoon");
-//     break;
-//   default:
-//     console.log("Good Night");
-// }
-// switch (true) {
-//   case hour < 12:
-//     console.log("Good Morning");
-//     break;
-//   case hour < 18:
-//     console.log("Good Afternoon");
-//     break;
-//   default:
-//     console.log("Good Night");
-// }
-// switch (true) {
-//   case hour < 12:
-//     console.log("Good Morning");
-//     break;
-//   case hour < 18:
-//     console.log("Good Afternoon");
-//     break;
-//   default:
-//     console.log("Good Night");
-// }
-// switch (true) {
-//   case hour < 12:
-//     console.log("Good Morning");
-//     break;
-//   case hour < 18:
-//     console.log("Good Afternoon");
-//     break;
-//   default:
-//     console.log("Good Night");
-// }
-// switch (true) {
-//   case hour < 12:
-//     console.log("Good Morning");
-//     break;
-//   case hour < 18:
-//     console.log("Good Afternoon");
-//     break;
-//   default:
-//     console.log("Good Night");
-// }
-// switch (true) {
-//   case hour < 12:
-//     console.log("Good Morning");
-//     break;
-//   case hour < 18:
-//     console.log("Good Afternoon");
-//     break;
-//   default:
-//     console.log("Good Night");
-// }
-// switch (true) {
-//   case hour < 12:
-//     console.log("Good Morning");
-//     break;
-//   case hour < 18:
-//     console.log("Good Afternoon");
-//     break;
-//   default:
-//     console.log("Good Night");
-// }
-// switch (true) {
-//   case hour < 12:
-//     console.log("Good Morning");
-//     break;
-//   case hour < 18:
-//     console.log("Good Afternoon");
-//     break;
-//   default:
-//     console.log("Good Night");
-// }
-// switch (true) {
-//   case hour < 12:
-//     console.log("Good Morning");
-//     break;
-//   case hour < 18:
-//     console.log("Good Afternoon");
-//     break;
-//   default:
-//     console.log("Good Night");
-// }
-// switch (true) {
-//   case hour < 12:
-//     console.log("Good Morning");
-//     break;
-//   case hour < 18:
-//     console.log("Good Afternoon");
-//     break;
-//   default:
-//     console.log("Good Night");
-// }
-// switch (true) {
-//   case hour < 12:
-//     console.log("Good Morning");
-//     break;
-//   case hour < 18:
-//     console.log("Good Afternoon");
-//     break;
-//   default:
-//     console.log("Good Night");
-// }
-// switch (true) {
-//   case hour < 12:
-//     console.log("Good Morning");
-//     break;
-//   case hour < 18:
-//     console.log("Good Afternoon");
-//     break;
-//   default:
-//     console.log("Good Night");
-// }
-// switch (true) {
-//   case hour < 12:
-//     console.log("Good Morning");
-//     break;
-//   case hour < 18:
-//     console.log("Good Afternoon");
-//     break;
-//   default:
-//     console.log("Good Night");
-// }
-// switch (true) {
-//   case hour < 12:
-//     console.log("Good Morning");
-//     break;
-//   case hour < 18:
-//     console.log("Good Afternoon");
-//     break;
-//   default:
-//     console.log("Good Night");
-// }
-// switch (true) {
-//   case hour < 12:
-//     console.log("Good Morning");
-//     break;
-//   case hour < 18:
-//     console.log("Good Afternoon");
-//     break;
-//   default:
-//     console.log("Good Night");
-// }
-// switch (true) {
-//   case hour < 12:
-//     console.log("Good Morning");
-//     break;
-//   case hour < 18:
-//     console.log("Good Afternoon");
-//     break;
-//   default:
-//     console.log("Good Night");
-// }
-// switch (true) {
-//   case hour < 12:
-//     console.log("Good Morning");
-//     break;
-//   case hour < 18:
-//     console.log("Good Afternoon");
-//     break;
-//   default:
-//     console.log("Good Night");
-// }
-// switch (true) {
-//   case hour < 12:
-//     console.log("Good Morning");
-//     break;
-//   case hour < 18:
-//     console.log("Good Afternoon");
-//     break;
-//   default:
-//     console.log("Good Night");
-// }
-// switch (true) {
-//   case hour < 12:
-//     console.log("Good Morning");
-//     break;
-//   case hour < 18:
-//     console.log("Good Afternoon");
-//     break;
-//   default:
-//     console.log("Good Night");
-// }
+for (let i = 0; i <= 10; i++) {
+  console.log("Number" + i);
+}
