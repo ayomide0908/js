@@ -1430,3 +1430,7 @@
 //Types of naming cases
 // ways of creating variables
 // const creates a variable that can't be changed later
+
+// Monday 24th of november
+// Calculator file
+//
