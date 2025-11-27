@@ -1432,5 +1432,12 @@
 // const creates a variable that can't be changed later
 
 // Monday 24th of november
-// Calculator file
-//
+// javascript Calculator file
+
+//Tuesday 25th of November
+// Booleans and If's statement
+//comparison operators
+// Logical operators
+// and operator, or operator || Not operator !
+// Rock Paper Scissors game
+// Strategy for javascript

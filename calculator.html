@@ -3,62 +3,82 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        background-color: black;
+      }
+
+      button {
+        padding: 20px;
+        margin: 3px;
+        border: none;
+        border-radius: 25px;
+        background-color: orange;
+      }
+    </style>
     <title>Calculator</title>
   </head>
   <body>
     <p>
-      <button>AC</button>
-      <button></button>
-      <button>9</button>
-      <button>x</button>
+      <button onclick="clearAll()">AC</button>
+      <button onclick="delChar()">DEL</button>
+      <button onclick="update('%')">%</button>
+      <button onclick="update('/')">/</button>
     </p>
 
     <p>
-      <button>7</button>
-      <button>8</button>
-      <button>9</button>
-      <button>x</button>
+      <button onclick="update('7')">7</button>
+      <button onclick="update('8')">8</button>
+      <button onclick="update('9')">9</button>
+      <button onclick="update('*')">*</button>
     </p>
 
     <p>
-      <button>4</button>
-      <button>5</button>
-      <button>6</button>
-      <button>-</button>
+      <button onclick="update('4')">4</button>
+      <button onclick="update('5')">5</button>
+      <button onclick="update('6')">6</button>
+      <button onclick="update('-')">-</button>
     </p>
 
     <p>
-      <button
-        onclick="
-    calculation = '1'
-    console.log(calculation);
-    "
-      >
-        1
-      </button>
-      <button
-        onclick="
-   calculation = '2'
-   console.log(calculation);
-   "
-      >
-        2
-      </button>
-
-      <button>3</button>
-
-      <button>+</button>
+      <button onclick="update('1')">1</button>
+      <button onclick="update('2')">2</button>
+      <button onclick="update('3')">3</button>
+      <button onclick="update('+')">+</button>
     </p>
 
     <p>
-      <button>C</button>
-      <button>0</button>
-      <button>.</button>
-      <button>=</button>
+      <button onclick="update('0')">0</button>
+      <button onclick="update('.')">.</button>
+      <button onclick="equalTo()">=</button>
     </p>
 
     <script>
       let calculation = "";
+
+      function update(value) {
+        calculation += value;
+        console.log(calculation);
+      }
+
+      function equalTo() {
+        try {
+          calculation = eval(calculation);
+          console.log(calculation);
+        } catch (e) {
+          console.log("Error");
+        }
+      }
+
+      function clearAll() {
+        calculation = "";
+        console.log(calculation);
+      }
+
+      function delChar() {
+        calculation = calculation.slice(0, -1);
+        console.log(calculation);
+      }
     </script>
   </body>
 </html>
