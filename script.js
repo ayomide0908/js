@@ -1441,3 +1441,9 @@
 // and operator, or operator || Not operator !
 // Rock Paper Scissors game
 // Strategy for javascript
+
+// ternary operators
+// AND Operator
+// default operator
+//Gaurd Operator
+// A coin flip game

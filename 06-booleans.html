@@ -10,7 +10,7 @@
       true;
       false;
 
-      console.log(3 > 5 - 5);
+      /*   console.log(3 > 5 - 5);
 
       console.log(5 === "5.00");
 
@@ -29,6 +29,80 @@
         console.log("Almost there!");
       } else {
         console.log("You can not drive");
+      }
+
+      // console.log(true || false);
+      // console.log(!false);
+
+      // if (0) {
+      // console.log("truthy");
+      // }
+
+      // const cartQuantity = 5;
+
+      // if (cartQuantity) {
+      // console.log("cart has products");
+      // }
+
+      // console.log(!0);
+
+      // console.log("text" / 5);
+
+      // const variable1 = undefined;
+
+      // console.log(variable1);
+
+      const result = true ? "truthy" : "falsy";
+      console.log(result);
+
+      false && console.log("hello");
+
+      const message = 5 && "hello";
+      console.log(message);
+
+      const currency = undefined || "USD";
+      5;
+      console.log(currency);*/
+
+      const hour = 81;
+      const name = "Enoch";
+
+      if (hour >= 6 && hour <= 12) {
+        console.log(`Good morning ${name}!`);
+      } else if (hour >= 13 && hour <= 17) {
+        console.log(`Good Afternoon ${name}!`);
+      } else {
+        console.log(`Good night ${name}`);
+      }
+
+      let age = 6;
+      const isHoliday = false;
+
+      const ageQualifies = age >= 6 || age <= 65;
+
+      if (ageQualifies && isHoliday) {
+        console.log("discount");
+      } else {
+        console.log("No discount");
+      }
+
+      num = Math.random();
+
+      if (num < 0.5) {
+        console.log("heads");
+      } else {
+        console.log("tails");
+      }
+
+      let result = num < 0.5 ? "heads" : "tails";
+      console.log("Result:", result);
+
+      const guess = "heads";
+
+      if (guess === result) {
+        console.log("You win");
+      } else {
+        console.log("You loose");
       }
     </script>
   </body>
