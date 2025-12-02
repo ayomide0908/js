@@ -1447,3 +1447,5 @@
 // default operator
 //Gaurd Operator
 // A coin flip game
+// Functions
+// Rules for functions
