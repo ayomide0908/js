@@ -1449,3 +1449,8 @@
 // A coin flip game
 // Functions
 // Rules for functions
+
+// Learnt About REturn Statements
+// learnt about putting values in functions using parameters
+// learnt about Objects
+// added some chnages to my rock paper scissors game
