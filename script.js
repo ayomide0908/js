@@ -1452,5 +1452,18 @@
 
 // Learnt About REturn Statements
 // learnt about putting values in functions using parameters
+
 // learnt about Objects
+// Why we use objects
 // added some chnages to my rock paper scissors game
+//
+
+// Bracket Notation in Javascript
+//Dot notation
+// Nested Objects
+// Saving functions inside an object
+// JSON built in object
+// converting javascript object to JSON
+// converting JSON to Javascript Object using JSON.parse()
+//Local Strorage
+// Auto boxing
