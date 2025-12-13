@@ -1467,3 +1467,13 @@
 // converting JSON to Javascript Object using JSON.parse()
 //Local Strorage
 // Auto boxing
+
+// Document Object Model (DOM) in javascript
+// Syntax of DOM
+//document.querySelector()-----Let's us get any element from the page and put inside Javascript
+//DOM combines HTML and Javascript together in a webpage
+// learnt how to create functional Youtube subscribe button
+// worked on a amazon shipping calculator
+//clicks,keydowns are events
+// onclick, onKeydown are used as event listeners
+// Window object --> which represents the browser
