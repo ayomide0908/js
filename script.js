@@ -1477,3 +1477,9 @@
 //clicks,keydowns are events
 // onclick, onKeydown are used as event listeners
 // Window object --> which represents the browser
+
+// adding css and javascript together
+// styled my functional Youtube Subscribe button and Amazon shipping calculator with css
+
+// done with the Functionality & Styling of my Rock paper scissors game
+//
