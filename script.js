@@ -1495,7 +1495,12 @@
 // / Looping through an array
 // / Acucumulator Pattern
 // Main Idea of Javascript
+
 //Objects Destructuting
 // objects Shorthand property SYntax
+// learnt how 'breaks' are used for exiting a line
+// How to use loops with functions
 
 //A Todo list Project
+
+// Advanced Features of functions
