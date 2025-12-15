@@ -1483,3 +1483,19 @@
 
 // done with the Functionality & Styling of my Rock paper scissors game
 //
+
+// Arrays and loops
+// learnt the basics of array
+// Learnt the syntax of Array
+// leaarnt the properties and methods in array
+
+// / learnt Loops
+// / While loops
+// / Syntax rules for while loops(iteration)
+// / Looping through an array
+// / Acucumulator Pattern
+// Main Idea of Javascript
+//Objects Destructuting
+// objects Shorthand property SYntax
+
+//A Todo list Project
