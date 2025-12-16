@@ -1500,7 +1500,10 @@
 // objects Shorthand property SYntax
 // learnt how 'breaks' are used for exiting a line
 // How to use loops with functions
+//  Breaking Out of a loop
 
 //A Todo list Project
 
 // Advanced Features of functions
+//
+//
