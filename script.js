@@ -1505,5 +1505,7 @@
 //A Todo list Project
 
 // Advanced Features of functions
-//
-//
+//Hoisting
+//Call back functions
+// setTimeOut--Synchronus code
+// Asynchronus Code
