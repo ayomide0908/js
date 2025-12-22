@@ -1509,3 +1509,8 @@
 //Call back functions
 // setTimeOut--Synchronus code
 // Asynchronus Code
+
+// How to stop an interval
+// Saving the Id
+// Calling the Id
+// Another Way to loop through an array

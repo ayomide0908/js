@@ -41,7 +41,8 @@
         margin-top: 60px;
       }
 
-      .reset-score-button {
+      .reset-score-button,
+      .auto-play-button {
         background-color: white;
         font-size: 15px;
         padding: 8px 15px;
@@ -95,6 +96,15 @@ playGame('rock')
       Reset Score
     </button>
 
+    <button
+      class="auto-play-button"
+      onclick="
+    autoPlay()
+    "
+    >
+      Auto Play
+    </button>
+
     <script>
       let score = JSON.parse(localStorage.getItem("score")) || {
         wins: 0,
@@ -111,6 +121,22 @@ playGame('rock')
           ties: 0,
         };
       }*/
+
+      let isAutoPlaying = false;
+      let intervalId;
+
+      function autoPlay() {
+        if (!isAutoPlaying) {
+          intervalId = setInterval(function () {
+            const playerMove = pickComputerMove();
+            playGame(playerMove);
+          }, 1000);
+          isAutoPlaying = true;
+        } else {
+          clearInterval(intervalId);
+          isAutoPlaying = false;
+        }
+      }
 
       function playGame(playerMove) {
         const computerMove = pickComputerMove();
